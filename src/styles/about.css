@@ -1,0 +1,626 @@
+:root {
+  --color-navy:   #0F172A;
+  --color-muted:  #5A6478;
+  --color-faint:  #8A93A6;
+
+  --surface-1:    #FFFFFF;
+  --surface-2:    #F4F6FA;
+  --surface-3:    #EEF2F7;
+
+  --line:         rgba(15, 23, 42, 0.10);
+  --line-soft:    rgba(15, 23, 42, 0.06);
+
+  --color-orange: #E8500A;
+  --color-orange-hover: #CF4525;
+  --orange-tint:  #FFF3EC;
+
+  /* Dark card surface for light sections. Global so other pages can reuse it. */
+  --surface-dark:  #161929;
+  --on-dark:       #E8ECF3;
+  --on-dark-muted: rgba(232, 236, 243, 0.62);
+  --on-dark-line:  rgba(255, 255, 255, 0.12);
+
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 16px rgba(15, 23, 42, 0.07);
+  --shadow-lg: 0 18px 48px rgba(15, 23, 42, 0.10);
+}
+
+@keyframes aboutFadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .about-page * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ================= SHARED ================= */
+
+/* Eyebrow — matches .xx-eyebrow in solutions.css. */
+.about-badge {
+  display: inline-block;
+  color: var(--color-orange);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+/* Icon box — matches .pi-tool-icon. */
+.mission-vision-icon-wrap,
+.value-icon,
+.icon-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: var(--orange-tint);
+  border: 1px solid rgba(232, 80, 10, 0.22);
+  color: var(--color-orange);
+  font-size: 17px;
+  flex-shrink: 0;
+  margin-bottom: 18px;
+}
+
+/* Cards — matches .svp-step-card. */
+.mission-vision-card,
+.value-card,
+.team-card {
+  background: var(--surface-1);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow-sm);
+  opacity: 0;
+  animation: aboutFadeUp 0.6s ease both;
+  transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.mission-vision-card:hover,
+.value-card:hover,
+.team-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(232, 80, 10, 0.4);
+  box-shadow: var(--shadow-md);
+}
+
+.mission-vision-card,
+.value-card { padding: 32px 24px; }
+
+/* Button — matches .xx-btn-primary. */
+.about-page .banner-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: var(--color-orange);
+  color: #fff;
+  border: 1px solid var(--color-orange);
+  border-radius: 8px;
+  padding: 13px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.about-page .banner-btn:hover {
+  background: var(--color-orange-hover);
+  border-color: var(--color-orange-hover);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(232, 80, 10, 0.28);
+}
+
+.about-page .banner-btn:focus-visible,
+.social-icons a:focus-visible {
+  outline: 2px solid var(--color-orange);
+  outline-offset: 3px;
+}
+
+/* ================= BANNER ================= */
+
+.about-page .about-banner {
+  padding: 90px 0;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 0%, rgba(232, 80, 10, 0.07), transparent 72%),
+    var(--surface-2);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.about-page .banner-content {
+  max-width: 760px;
+  margin: 0 auto;
+  animation: aboutFadeUp 0.7s ease both;
+}
+
+.about-page .banner-content h1 {
+  color: var(--color-navy);
+  margin-bottom: 20px;
+}
+
+.about-page .banner-content h1 span {
+  color: var(--color-orange);
+}
+
+.about-page .banner-content p {
+  color: var(--color-muted);
+  margin: 0 auto 28px;
+}
+
+/* ================= OUR STORY ================= */
+
+.our-story-sec {
+  padding: 90px 0;
+  background: var(--surface-1);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.left_content h2 {
+  color: var(--color-navy);
+  margin-bottom: 16px;
+}
+
+.left_content p {
+  color: var(--color-muted);
+  margin-bottom: 14px;
+}
+
+.left_content p:last-child { margin-bottom: 0; }
+
+.right_col { position: relative; }
+
+.right_col img {
+  width: 100%;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-lg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.right_col:hover img {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 60px rgba(15, 23, 42, 0.14);
+}
+
+/* Stats strip overlapping the image. */
+.stats-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: -44px 20px 0;
+  padding: 18px 22px;
+  background: var(--surface-1);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  box-shadow: var(--shadow-lg);
+}
+
+.stat-box {
+  flex: 1;
+  text-align: center;
+}
+
+.stat-box p {
+  color: var(--color-muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.stat-box h3 {
+  color: var(--color-navy);
+  margin: 0;
+}
+
+.stat-box h3.highlight { color: var(--color-orange); }
+
+.divider {
+  width: 1px;
+  height: 26px;
+  background: var(--line);
+  flex-shrink: 0;
+}
+
+/* ================= MISSION / VISION ================= */
+
+.mission-vision-section {
+  padding: 80px 0;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.mission-vision-header {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 50px;
+}
+
+.mission-vision-title,
+.values-title,
+.section-title {
+  color: var(--color-navy);
+  margin-bottom: 12px;
+}
+
+.mission-vision-title span,
+.values-title span,
+.section-title span { color: var(--color-orange); }
+
+.mission-vision-card { display: flex; flex-direction: column; }
+.mission-vision-card:nth-child(2) { animation-delay: 0.1s; }
+
+.mission-vision-card h3,
+.value-card h3 {
+  color: var(--color-navy);
+  margin-bottom: 10px;
+}
+
+.mission-vision-card p,
+.value-card p {
+  color: var(--color-muted);
+  margin: 0;
+}
+
+/* ================= CORE VALUES ================= */
+
+section.core-values-section {
+  padding: 90px 0;
+  background: var(--surface-1);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.core-values-section .text-center { max-width: 640px; margin-inline: auto; }
+
+.value-card { height: 100%; }
+
+/* ================= PROCESS ================= */
+
+.process-section {
+  padding: 80px 0;
+  background: var(--surface-2);
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.process-section > .container > .text-center {
+  max-width: 640px;
+  margin: 0 auto 50px;
+}
+
+.process-step {
+  position: relative;
+  opacity: 0;
+  animation: aboutFadeUp 0.6s ease both;
+}
+
+/* Step number — matches .svp-step-number. */
+.process-step span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--orange-tint);
+  border: 1px solid rgba(232, 80, 10, 0.22);
+  color: var(--color-orange);
+  font-size: 16px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  margin-bottom: 18px;
+}
+
+.process-step h3 {
+  color: var(--color-navy);
+  margin-bottom: 10px;
+}
+
+.process-step p {
+  color: var(--color-muted);
+  margin: 0;
+}
+
+@media (min-width: 901px) {
+  .process-grid > [class*="col-"]:not(:last-child) .process-step::after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    right: -20px;
+    width: 20px;
+    height: 2px;
+    background: var(--line);
+  }
+}
+
+/* ================= TEAM ================= */
+
+.team-section {
+  padding: 90px 0;
+  background: var(--surface-1);
+  text-align: center;
+}
+
+.team-section .section-title {
+  max-width: 24ch;
+  margin: 0 auto 50px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.team-card {
+  padding: 32px 22px;
+  background: var(--surface-dark);
+  border-color: var(--on-dark-line);
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.18);
+  text-align: center;
+}
+
+.team-card:hover {
+  border-color: rgba(232, 80, 10, 0.55);
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.24);
+}
+
+.team-img {
+  display: block;
+  width: 88px;
+  height: 88px;
+  margin: 0 auto 16px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--on-dark-line);
+  transition: border-color 0.25s ease;
+}
+
+.team-card:hover .team-img { border-color: rgba(232, 80, 10, 0.5); }
+
+.team-card h3 {
+  color: #ffffff;
+  margin-bottom: 6px;
+}
+
+.role {
+  color: var(--on-dark-muted);
+  margin-bottom: 14px;
+  min-height: 42px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--on-dark-line);
+  color: var(--on-dark-muted);
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.25s ease, background 0.25s ease, border-color 0.25s ease;
+}
+
+.social-icons a:hover {
+  color: #ffffff;
+  background: var(--color-orange);
+  border-color: var(--color-orange);
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 900px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+  .stats-wrapper { margin: -30px 12px 0; }
+}
+
+@media (max-width: 768px) {
+  .stats-wrapper {
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px 0 0;
+  }
+
+  .divider { display: none; }
+  .role { min-height: 0; }
+}
+
+@media (max-width: 576px) {
+  .about-page .about-banner { padding: 60px 0; }
+
+  .our-story-sec,
+  section.core-values-section,
+  .team-section { padding: 60px 0; }
+
+  .mission-vision-section,
+  .process-section { padding: 60px 0; }
+
+  .mission-vision-header,
+  .process-section > .container > .text-center { margin-bottom: 36px; }
+
+  .team-section .section-title { margin-bottom: 36px; }
+
+  .team-grid { grid-template-columns: 1fr; }
+
+  .mission-vision-card,
+  .value-card { padding: 24px 20px; }
+
+  .about-page .banner-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.about-page .banner-content h1 {
+  font-size: clamp(1.875rem, 1.45rem + 2.1vw, 2.75rem);    /* 30 → 44px */
+  font-weight: 800;
+  line-height: 1.14;
+  letter-spacing: -0.03em;
+}
+
+/* Section headers — matches .svp-steps-title. */
+.mission-vision-title,
+.values-title,
+.section-title {
+  font-size: clamp(1.5rem, 1.25rem + 1.2vw, 1.875rem);     /* 24 → 30px */
+  font-weight: 800;
+  line-height: 1.25;
+  letter-spacing: -0.025em;
+}
+
+/* Row heading — matches .bpm-heading. */
+.left_content h2 {
+  font-size: clamp(1.3125rem, 1.15rem + 0.9vw, 1.75rem);   /* 21 → 28px */
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+}
+
+.process-step h3,
+.mission-vision-card h3,
+.value-card h3 {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.team-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.stat-box h3 {
+  font-size: clamp(1.125rem, 1rem + 0.6vw, 1.3125rem);     /* 18 → 21px */
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1;
+}
+
+.about-page .banner-content p {
+  font-size: 16px;
+  line-height: 1.7;
+  max-width: 58ch;
+}
+
+.left_content p {
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 60ch;
+}
+
+.values-subtitle,
+.section-desc,
+.mission-vision-header p {
+  color: var(--color-muted);
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.mission-vision-card p,
+.value-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.role {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+@media (max-width: 576px) {
+  .about-page .banner-content p { font-size: 15px; }
+
+  .left_content p,
+  .values-subtitle,
+  .section-desc,
+  .mission-vision-header p { font-size: 14px; }
+
+  .mission-vision-card p,
+  .value-card p { font-size: 13px; }
+}
+
+[dir="rtl"] .about-badge,
+[dir="rtl"] .stat-box p {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+[dir="rtl"] .about-badge {
+  font-size: 14px;
+}
+
+[dir="rtl"] .about-page .banner-content h1,
+[dir="rtl"] .mission-vision-title,
+[dir="rtl"] .values-title,
+[dir="rtl"] .section-title,
+[dir="rtl"] .left_content h2,
+[dir="rtl"] .stat-box h3 {
+  letter-spacing: 0;
+}
+
+/* Arabic needs more line-height */
+[dir="rtl"] .about-page .banner-content h1 {
+  line-height: 1.5;
+}
+
+[dir="rtl"] .mission-vision-title,
+[dir="rtl"] .values-title,
+[dir="rtl"] .section-title,
+[dir="rtl"] .left_content h2 {
+  line-height: 1.55;
+}
+
+[dir="rtl"] .process-step h3,
+[dir="rtl"] .mission-vision-card h3,
+[dir="rtl"] .value-card h3,
+[dir="rtl"] .team-card h3 {
+  line-height: 1.6;
+}
+
+[dir="rtl"] .about-page .banner-content p,
+[dir="rtl"] .left_content p,
+[dir="rtl"] .values-subtitle,
+[dir="rtl"] .section-desc,
+[dir="rtl"] .mission-vision-header p,
+[dir="rtl"] .mission-vision-card p,
+[dir="rtl"] .value-card p,
+[dir="rtl"] .process-step p,
+[dir="rtl"] .role {
+  line-height: 1.9;
+}
+
+[dir="rtl"] .team-section .section-title {
+  max-width: 32ch;
+}
+
+@media (min-width: 901px) {
+  [dir="rtl"] .process-grid > [class*="col-"]:not(:last-child) .process-step::after {
+    right: auto;
+    left: -20px;
+  }
+}

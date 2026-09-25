@@ -1,0 +1,406 @@
+/* =========================================================
+   ARABIC / RTL + LANGUAGE SWITCH ANIMATION
+   File: src/assets/css/rtl.css
+========================================================= */
+
+/* ---------- Arabic font ---------- */
+html[dir="rtl"] body {
+  font-family: "Cairo", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* Letter-spacing breaks Arabic letters apart */
+html[dir="rtl"] h1, html[dir="rtl"] h2, html[dir="rtl"] h3,
+html[dir="rtl"] h4, html[dir="rtl"] h5, html[dir="rtl"] h6,
+html[dir="rtl"] .bp-mega-col-heading,
+html[dir="rtl"] .bp-mega-featured-eyebrow {
+  letter-spacing: 0 !important;
+  text-transform: none;
+}
+
+html[dir="rtl"] p {
+  line-height: 1.9;
+}
+
+/* Brand name always in English order */
+.bp-brand {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Directional icons flip */
+html[dir="rtl"] .bi-arrow-right,
+html[dir="rtl"] .bi-arrow-left,
+html[dir="rtl"] .bi-chevron-right,
+html[dir="rtl"] .bi-chevron-left,
+html[dir="rtl"] .bi-send-fill {
+  display: inline-block;
+  transform: scaleX(-1);
+}
+
+/* <a> styled as a button (hero) */
+a.hero-btn-primary,
+a.hero-btn-secondary {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* =========================================================
+   LANGUAGE BUTTON
+========================================================= */
+.bp-lang-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: inherit;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
+}
+
+.bp-lang-btn:hover {
+  border-color: #E8500A;
+  color: #E8500A;
+}
+
+.bp-lang-icon {
+  display: inline-block;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.bp-lang-btn:hover .bp-lang-icon {
+  transform: rotate(180deg);
+}
+
+/* Globe spins on click */
+.bp-lang-btn.is-switching {
+  pointer-events: none;
+  border-color: #E8500A;
+  color: #E8500A;
+}
+
+.bp-lang-btn.is-switching .bp-lang-icon {
+  animation: langSpin 0.7s linear infinite;
+}
+
+@keyframes langSpin {
+  to { transform: rotate(360deg); }
+}
+
+/* =========================================================
+   CURTAIN OVERLAY (language switch)
+   To Arabic: enters from the right. To English: from the left.
+========================================================= */
+.lang-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 99999;
+  display: grid;
+  place-items: center;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(232, 80, 10, 0.18), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(37, 99, 235, 0.14), transparent 40%),
+    #0F172A;
+  will-change: transform;
+}
+
+/* Cover (enter) */
+.lang-overlay.is-in.to-ar { animation: curtainFromRight 0.42s cubic-bezier(0.76, 0, 0.24, 1) both; }
+.lang-overlay.is-in.to-en { animation: curtainFromLeft  0.42s cubic-bezier(0.76, 0, 0.24, 1) both; }
+
+/* Reveal (exits in the same direction) */
+.lang-overlay.is-out.to-ar { animation: curtainToLeft  0.48s cubic-bezier(0.76, 0, 0.24, 1) both; }
+.lang-overlay.is-out.to-en { animation: curtainToRight 0.48s cubic-bezier(0.76, 0, 0.24, 1) both; }
+
+@keyframes curtainFromRight { from { transform: translateX(100%); }  to { transform: translateX(0); } }
+@keyframes curtainFromLeft  { from { transform: translateX(-100%); } to { transform: translateX(0); } }
+@keyframes curtainToLeft    { from { transform: translateX(0); }     to { transform: translateX(-100%); } }
+@keyframes curtainToRight   { from { transform: translateX(0); }     to { transform: translateX(100%); } }
+
+.lang-overlay__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  animation: overlayContentIn 0.35s ease 0.18s both;
+}
+
+.lang-overlay.is-out .lang-overlay__inner {
+  animation: overlayContentOut 0.2s ease both;
+}
+
+@keyframes overlayContentIn {
+  from { opacity: 0; transform: translateY(10px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes overlayContentOut {
+  to { opacity: 0; transform: scale(0.98); }
+}
+
+.lang-overlay__brand {
+  color: #FFFFFF;
+  font-size: clamp(26px, 4vw, 38px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.lang-overlay__brand span {
+  color: #E8500A;
+}
+
+.lang-overlay__label {
+  color: rgba(232, 236, 243, 0.7);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.lang-overlay__label:lang(ar) {
+  font-family: "Cairo", system-ui, sans-serif;
+  font-size: 18px;
+}
+
+/* Moving loading line */
+.lang-overlay__bar {
+  position: relative;
+  width: 140px;
+  height: 3px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.12);
+  overflow: hidden;
+}
+
+.lang-overlay__bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -40%;
+  width: 40%;
+  border-radius: inherit;
+  background: #E8500A;
+  animation: langBar 0.9s ease-in-out infinite;
+}
+
+.lang-overlay.to-ar .lang-overlay__bar::after {
+  animation-direction: reverse;
+}
+
+@keyframes langBar {
+  from { left: -40%; }
+  to   { left: 100%; }
+}
+
+/* =========================================================
+   NEW CONTENT: light fade + rise
+   (fill-mode "backwards" leaves no transform behind,
+   so sticky/fixed elements keep working)
+========================================================= */
+.lang-page {
+  animation: langPageIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) backwards;
+}
+
+@keyframes langPageIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Hero text enters one after another */
+.lang-page .hero-live-badge { animation: langTextIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.10s backwards; }
+.lang-page .hero-heading    { animation: langTextIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.18s backwards; }
+.lang-page .hero-subtext    { animation: langTextIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) 0.26s backwards; }
+
+@keyframes langTextIn {
+  from { opacity: 0; transform: translateX(var(--lang-shift, 24px)); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* Text enters from its reading direction */
+html[dir="ltr"] { --lang-shift: -24px; }
+html[dir="rtl"] { --lang-shift: 24px; }
+
+/* =========================================================
+   REDUCED MOTION: no animation
+========================================================= */
+@media (prefers-reduced-motion: reduce) {
+  .lang-overlay,
+  .lang-overlay__inner,
+  .lang-overlay__bar::after,
+  .lang-page,
+  .lang-page .hero-live-badge,
+  .lang-page .hero-heading,
+  .lang-page .hero-subtext,
+  .bp-lang-icon,
+  .bp-lang-btn.is-switching .bp-lang-icon {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* =========================================================
+   SOLUTION PAGES: RTL OVERRIDES (for solutions.css)
+   Subcontractors, General Contractors, Manufacturers, Suppliers,
+   Service Providers, Hospitality, Project Intelligence, Intelligent Leads
+========================================================= */
+
+/* ---------- 1. Typography: remove uppercase / letter-spacing ---------- */
+[dir="rtl"] .bpm-eyebrow, [dir="rtl"] .gc-eyebrow, [dir="rtl"] .sd-eyebrow,
+[dir="rtl"] .svp-eyebrow, [dir="rtl"] .hosp-eyebrow, [dir="rtl"] .pi-eyebrow, [dir="rtl"] .il-eyebrow,
+[dir="rtl"] .bpm-label, [dir="rtl"] .gc-label, [dir="rtl"] .sd-label,
+[dir="rtl"] .svp-label, [dir="rtl"] .hosp-label, [dir="rtl"] .pi-label, [dir="rtl"] .il-label,
+[dir="rtl"] .gc-whyus-eyebrow, [dir="rtl"] .svp-steps-eyebrow,
+[dir="rtl"] .fs-label,
+[dir="rtl"] .pi-feed-header, [dir="rtl"] .il-feed-header,
+[dir="rtl"] .pi-feed-tag, [dir="rtl"] .il-feed-tag,
+[dir="rtl"] .hosp-compare-col h3, [dir="rtl"] .pi-compare-col h3, [dir="rtl"] .il-compare-col h3,
+[dir="rtl"] .pi-timeline-num, [dir="rtl"] .il-timeline-num {
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+/* Slightly larger eyebrow; small Arabic text is hard to read */
+[dir="rtl"] .bpm-eyebrow, [dir="rtl"] .gc-eyebrow, [dir="rtl"] .sd-eyebrow,
+[dir="rtl"] .svp-eyebrow, [dir="rtl"] .hosp-eyebrow, [dir="rtl"] .pi-eyebrow, [dir="rtl"] .il-eyebrow,
+[dir="rtl"] .bpm-label, [dir="rtl"] .gc-label, [dir="rtl"] .sd-label,
+[dir="rtl"] .svp-label, [dir="rtl"] .hosp-label, [dir="rtl"] .pi-label, [dir="rtl"] .il-label,
+[dir="rtl"] .gc-whyus-eyebrow, [dir="rtl"] .svp-steps-eyebrow, [dir="rtl"] .fs-label {
+  font-size: 14px;
+}
+
+/* No hover letter-spacing on fs-label in Arabic */
+[dir="rtl"] .fs-text-col:hover .fs-label {
+  letter-spacing: 0;
+}
+
+/* Negative letter-spacing breaks Arabic headings */
+[dir="rtl"] .bpm-banner-heading, [dir="rtl"] .gc-banner-heading, [dir="rtl"] .sd-banner-heading,
+[dir="rtl"] .svp-banner-heading, [dir="rtl"] .hosp-banner-heading, [dir="rtl"] .pi-banner-heading, [dir="rtl"] .il-banner-heading,
+[dir="rtl"] .bpm-heading, [dir="rtl"] .gc-heading, [dir="rtl"] .sd-heading,
+[dir="rtl"] .svp-heading, [dir="rtl"] .hosp-heading, [dir="rtl"] .pi-heading, [dir="rtl"] .il-heading,
+[dir="rtl"] .bpm-steps-title, [dir="rtl"] .gc-steps-title, [dir="rtl"] .sd-steps-title, [dir="rtl"] .sub-steps-title,
+[dir="rtl"] .svp-steps-title, [dir="rtl"] .hosp-steps-title, [dir="rtl"] .hosp-compare-title, [dir="rtl"] .hosp-tools-title,
+[dir="rtl"] .pi-steps-title, [dir="rtl"] .pi-compare-title, [dir="rtl"] .pi-tools-title,
+[dir="rtl"] .il-steps-title, [dir="rtl"] .il-compare-title, [dir="rtl"] .il-tools-title,
+[dir="rtl"] .gc-whyus-title, [dir="rtl"] .fs-heading,
+[dir="rtl"] .about-banner h1, [dir="rtl"] .trust_sec h2 {
+  letter-spacing: 0;
+  line-height: 1.55;
+}
+
+/* More line-height for paragraphs */
+[dir="rtl"] .bpm-banner-text, [dir="rtl"] .gc-banner-text, [dir="rtl"] .sd-banner-text,
+[dir="rtl"] .svp-banner-text, [dir="rtl"] .hosp-banner-text, [dir="rtl"] .pi-banner-text, [dir="rtl"] .il-banner-text,
+[dir="rtl"] .bpm-description, [dir="rtl"] .gc-description, [dir="rtl"] .sd-description,
+[dir="rtl"] .svp-description, [dir="rtl"] .hosp-description, [dir="rtl"] .pi-description, [dir="rtl"] .il-description,
+[dir="rtl"] .fs-description, [dir="rtl"] .about-banner p, [dir="rtl"] .gc-whyus-text {
+  line-height: 1.95;
+}
+
+/* No italics in Arabic */
+[dir="rtl"] .bpm-quote, [dir="rtl"] .gc-quote, [dir="rtl"] .sd-quote,
+[dir="rtl"] .svp-quote, [dir="rtl"] .hosp-quote, [dir="rtl"] .pi-quote, [dir="rtl"] .il-quote {
+  font-style: normal;
+  line-height: 1.8;
+}
+
+/* ---------- 2. Bullet points: orange square on the right ---------- */
+[dir="rtl"] .bpm-points li, [dir="rtl"] .gc-points li, [dir="rtl"] .sd-points li,
+[dir="rtl"] .svp-points li, [dir="rtl"] .hosp-points li, [dir="rtl"] .pi-points li, [dir="rtl"] .il-points li,
+[dir="rtl"] .fs-points li {
+  padding-left: 0;
+  padding-right: 22px;
+}
+
+[dir="rtl"] .bpm-points li::before, [dir="rtl"] .gc-points li::before, [dir="rtl"] .sd-points li::before,
+[dir="rtl"] .svp-points li::before, [dir="rtl"] .hosp-points li::before, [dir="rtl"] .pi-points li::before, [dir="rtl"] .il-points li::before,
+[dir="rtl"] .fs-points li::before {
+  left: auto;
+  right: 0;
+  top: 11px; /* Taller Arabic line-height: move bullet down a bit */
+}
+
+/* On hover the item moves in reading direction */
+[dir="rtl"] .fs-points li:hover {
+  transform: translateX(-4px);
+}
+
+/* ---------- 3. Buttons & arrows ---------- */
+[dir="rtl"] .fs-btn-link:hover .fs-arrow {
+  transform: translateX(-6px);
+}
+
+/* Button shine runs right to left */
+[dir="rtl"] .fs-btn-primary::before {
+  transform: translateX(100%);
+}
+
+[dir="rtl"] .fs-btn-primary:hover::before {
+  transform: translateX(-100%);
+}
+
+/* ---------- 4. Banner caption: orange border on the right ---------- */
+[dir="rtl"] .bpm-banner-caption, [dir="rtl"] .gc-banner-caption, [dir="rtl"] .sd-banner-caption,
+[dir="rtl"] .svp-banner-caption, [dir="rtl"] .hosp-banner-caption, [dir="rtl"] .pi-banner-caption, [dir="rtl"] .il-banner-caption {
+  border-left: 1px solid var(--line);
+  border-right: 3px solid var(--color-orange);
+}
+
+/* ---------- 5. Connector line between step cards ---------- */
+@media (min-width: 901px) {
+  [dir="rtl"] .svp-step-card:not(:last-child)::after,
+  [dir="rtl"] .bpm-step-card:not(:last-child)::after,
+  [dir="rtl"] .gc-step-card:not(:last-child)::after,
+  [dir="rtl"] .sd-step-card:not(:last-child)::after,
+  [dir="rtl"] .sub-step-card:not(:last-child)::after {
+    right: auto;
+    left: -20px;
+  }
+}
+
+/* Vertical stepper on mobile: chevron points down */
+@media (max-width: 900px) {
+  [dir="rtl"] .pi-step-connector,
+  [dir="rtl"] .il-step-connector {
+    transform: rotate(-90deg);
+  }
+}
+
+/* ---------- 6. Live feed widget (Project Intelligence / Intelligent Leads) ---------- */
+[dir="rtl"] .pi-feed-card:hover,
+[dir="rtl"] .il-feed-card:hover {
+  transform: translateX(-4px);
+}
+
+/* Staggered card shape from the right */
+[dir="rtl"] .pi-feed-card-2, [dir="rtl"] .il-feed-card-2 {
+  margin-left: 0;
+  margin-right: 16px;
+}
+
+[dir="rtl"] .pi-feed-card-3, [dir="rtl"] .il-feed-card-3 {
+  margin-left: 0;
+  margin-right: 32px;
+}
+
+@media (max-width: 900px) {
+  [dir="rtl"] .pi-feed-card-2, [dir="rtl"] .il-feed-card-2 { margin-right: 8px; }
+  [dir="rtl"] .pi-feed-card-3, [dir="rtl"] .il-feed-card-3 { margin-right: 16px; }
+}
+
+/* English project names (dir="ltr") also align to the right edge */
+[dir="rtl"] .pi-feed-title[dir="ltr"],
+[dir="rtl"] .il-feed-title[dir="ltr"] {
+  text-align: right;
+}
+
+/* ---------- 7. Small leftovers (fs- mock elements) ---------- */
+[dir="rtl"] .fs-donut {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+[dir="rtl"] .fs-map-pin-a { left: auto; right: 40px; }
+[dir="rtl"] .fs-map-pin-b { right: auto; left: 60px; }

@@ -1,0 +1,436 @@
+/* =========================================
+   BID CONNECTORS FOOTER (LTR + RTL)
+========================================= */
+
+.footer {
+    position: relative;
+    padding: 80px 0 25px;
+    background:
+        radial-gradient(circle at 10% 0%, rgba(232, 80, 10, 0.12), transparent 28%),
+        radial-gradient(circle at 90% 20%, rgba(37, 99, 235, 0.08), transparent 25%),
+        var(--color-navy);
+    color: var(--on-dark);
+    overflow: hidden;
+}
+
+/* RTL: mirror background glows */
+[dir="rtl"] .footer {
+    background:
+        radial-gradient(circle at 90% 0%, rgba(232, 80, 10, 0.12), transparent 28%),
+        radial-gradient(circle at 10% 20%, rgba(37, 99, 235, 0.08), transparent 25%),
+        var(--color-navy);
+}
+
+/* TOP GLOW EFFECT */
+.footer::before {
+    content: "";
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: -250px;
+    inset-inline-end: -150px; /* logical property: left in RTL */
+    background: rgba(232, 80, 10, 0.08);
+    filter: blur(100px);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+/* =========================================
+   CONTAINER
+========================================= */
+
+.footer .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* =========================================
+   TOP SECTION
+========================================= */
+
+.footer-top {
+    display: grid;
+    grid-template-columns: minmax(280px, 1.3fr) 2fr;
+    gap: 20px;
+    align-items: start;
+}
+
+/* =========================================
+   BRAND SECTION
+========================================= */
+
+.footer-brand {
+    max-width: 430px;
+    animation: footerFadeUp 0.7s ease both;
+}
+
+.footer-brand .navbar-brand {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 18px;
+    color: var(--surface-1);
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: -0.8px; /* brand is always English */
+    transition: 0.3s ease;
+}
+
+.footer-brand .navbar-brand span {
+    color: var(--color-orange);
+}
+
+.footer-brand .navbar-brand:hover {
+    transform: translateY(-2px);
+}
+
+.footer-brand p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.8;
+    color: var(--on-dark-muted);
+}
+
+[dir="rtl"] .footer-brand p {
+    line-height: 2;
+}
+
+/* =========================================
+   LINKS SECTION
+========================================= */
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px !important;
+    animation: footerFadeUp 0.7s ease 0.15s both;
+}
+
+.footer-links > div {
+    position: relative;
+}
+
+/* HEADINGS */
+.footer-links h3 {
+    position: relative;
+    margin: 0 0 22px;
+    color: var(--surface-1);
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* No uppercase or letter-spacing in Arabic */
+[dir="rtl"] .footer-links h3 {
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+/* SMALL ORANGE LINE */
+.footer-links h3::after {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0; /* logical property: right in RTL */
+    bottom: -8px;
+    width: 28px;
+    height: 2px;
+    background: var(--color-orange);
+    border-radius: 10px;
+    transition: width 0.3s ease;
+}
+
+.footer-links > div:hover h3::after {
+    width: 45px;
+}
+
+/* LINKS */
+.footer-links a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    margin-bottom: 13px;
+    color: var(--on-dark-muted);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* ARROW (⋙ / ⋘): ::first-letter does not work with flex, so a class is used */
+.footer-links .footer-arrow {
+    color: var(--color-orange);
+    flex-shrink: 0;
+}
+
+/* HOVER: link moves in reading direction */
+.footer-links a:hover {
+    color: var(--surface-1);
+    transform: translateX(6px);
+}
+
+[dir="rtl"] .footer-links a:hover {
+    transform: translateX(-6px);
+}
+
+/* =========================================
+   DIVIDER
+========================================= */
+
+.divider {
+    position: relative;
+    height: 1px;
+    margin: 55px 0 28px;
+    background: var(--on-dark-line);
+    overflow: hidden;
+}
+
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30%;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, var(--color-orange), transparent);
+    animation: dividerMove 4s linear infinite;
+}
+
+/* RTL: shine runs right to left */
+[dir="rtl"] .divider::after {
+    animation-direction: reverse;
+}
+
+@keyframes dividerMove {
+    0%   { left: -30%; }
+    100% { left: 100%; }
+}
+
+/* =========================================
+   FOOTER BOTTOM
+========================================= */
+
+.footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    animation: footerFadeUp 0.7s ease 0.25s both;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--on-dark-muted);
+}
+
+/* =========================================
+   TRUST BADGES
+========================================= */
+
+.badges {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.badges span {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 7px 13px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--on-dark-line);
+    color: var(--on-dark-muted);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    transition: 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.badges span:hover {
+    color: var(--surface-1);
+    border-color: rgba(232, 80, 10, 0.6);
+    background: rgba(232, 80, 10, 0.12);
+    transform: translateY(-3px);
+}
+
+/* =========================================
+   FOOTER ENTRANCE ANIMATION
+========================================= */
+
+@keyframes footerFadeUp {
+    from { opacity: 0; transform: translateY(25px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================
+   RESPONSIVE - TABLET
+========================================= */
+
+@media (max-width: 991px) {
+    .footer {
+        padding: 65px 0 25px;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer-brand {
+        max-width: 600px;
+    }
+
+    .footer-links {
+        gap: 35px;
+    }
+}
+
+/* =========================================
+   RESPONSIVE - MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 55px 0 25px;
+    }
+
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px 25px;
+    }
+
+    .divider {
+        margin: 40px 0 25px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start; /* flex "start" is right in RTL */
+    }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 480px) {
+    .footer-links {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .footer-brand .navbar-brand {
+        font-size: 23px;
+    }
+
+    .footer-bottom {
+        align-items: center;
+        text-align: center;
+    }
+
+    .badges {
+        justify-content: center;
+    }
+}
+
+/* =========================================
+   REDUCED MOTION
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+    .footer *,
+    .footer::before,
+    .divider::after {
+        animation: none !important;
+        transition: none !important;
+    }
+}
+/* =========================================
+   4 LINK COLUMNS (Company, Solutions, Products, Support)
+========================================= */
+
+.footer-links {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 36px;
+}
+
+.footer-links a {
+    line-height: 1.45;
+}
+
+/* Laptop: brand on top, 4 columns below at full width */
+@media (max-width: 1199px) {
+    .footer-top {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .footer-brand {
+        max-width: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-links {
+        grid-template-columns: 1fr;
+        gap: 28px;
+    }
+}
+
+/* Brand logo image (white version for the dark footer) */
+.footer-brand-logo {
+    display: block;
+    width: auto;
+    height: 34px;
+}
+
+/* Email + phone under the brand text */
+.footer-contact {
+    display: grid;
+    gap: 10px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-contact li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-contact i {
+    display: grid;
+    place-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    background: rgba(232, 80, 10, 0.14);
+    color: var(--color-orange);
+    font-size: 14px;
+}
+
+.footer-contact a {
+    color: var(--on-dark);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.footer-contact a:hover {
+    color: var(--color-orange);
+}

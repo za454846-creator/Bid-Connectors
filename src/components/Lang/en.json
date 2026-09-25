@@ -1,0 +1,2533 @@
+{
+  "seo": {
+    "defaultTitle": "Find Latest Construction Projects Faster And Win 95% Of Your Bids",
+    "defaultDescription": "Explore one of the biggest repositories for construction projects in the US and start bidding before others. Get expert insights from Bid Connector experts now!"
+  },
+  "notFound": {
+    "metaTitle": "Page Not Found",
+    "title": "404 — Page Not Found",
+    "text": "The page you're looking for doesn't exist or has moved.",
+    "backHome": "Back to Home"
+  },
+  "nav": {
+    "menu": {
+      "home": "Home",
+      "about": "About",
+      "products": "Products",
+      "solutions": "Solutions",
+      "faq": "FAQ",
+      "contact": "Contact Us",
+      "pricing": "Pricing",
+      "projects": "Projects"
+    },
+    "products": {
+      "columns": {
+        "findProjects": "FIND PROJECTS",
+        "assess": "ASSESS FIT & ESTIMATE",
+        "manage": "MANAGE & WIN BIDS",
+        "platform": "PLATFORM"
+      },
+      "links": {
+        "projectIntelligence": {
+          "name": "Project Intelligence",
+          "desc": "Find and qualify projects to bid"
+        },
+        "intelligentLeads": {
+          "name": "Intelligent Leads",
+          "desc": "Curated leads matched to your business"
+        },
+        "takeoff": {
+          "name": "On-Screen Takeoff",
+          "desc": "Scalable takeoff measurement"
+        },
+        "quickBid": {
+          "name": "Quick Bid",
+          "desc": "Turn takeoffs into fast bids"
+        },
+        "bidManagement": {
+          "name": "Bid Management",
+          "desc": "Track every submission to award"
+        },
+        "pipelineInsights": {
+          "name": "Pipeline Insights",
+          "desc": "See win/loss patterns and forecast"
+        },
+        "platform": {
+          "name": "Bid Connectors Platform",
+          "desc": "The connected bidding suite"
+        }
+      },
+      "featured": {
+        "eyebrow": "READY TO BUY?",
+        "title": "See pricing built for your team",
+        "desc": "Plans for every stage, from finding work to winning it.",
+        "cta": "Get Started"
+      }
+    },
+    "solutions": {
+      "links": {
+        "subcontractors": {
+          "name": "Subcontractors",
+          "desc": "Find & win more of the right work"
+        },
+        "generalContractors": {
+          "name": "General Contractors",
+          "desc": "Fill your plan room & bid faster"
+        },
+        "manufacturers": {
+          "name": "Building Product Manufacturers",
+          "desc": "Get specified on more projects"
+        },
+        "suppliers": {
+          "name": "Suppliers & Distributors",
+          "desc": "Spot demand earlier"
+        },
+        "hospitality": {
+          "name": "Hospitality",
+          "desc": "Track renovation and build projects"
+        },
+        "serviceProviders": {
+          "name": "Service Providers",
+          "desc": "Reach active buyers"
+        }
+      },
+      "featured": {
+        "eyebrow": "NEED JOBS TO BID ON?",
+        "title": "Get matched to active projects",
+        "desc": "Search local commercial work that fits your trade and region.",
+        "cta": "Get Pricing"
+      }
+    },
+    "startFree": "Start Free",
+    "switchLang": "العربية",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "account": {
+      "toggle": "Get Started",
+      "menuLabel": "Account options",
+      "menuTitle": "Welcome to Bid Connectors",
+      "menuSub": "Find, track, and win construction bids.",
+      "register": {
+        "title": "Create Free Account",
+        "desc": "Start finding projects in minutes"
+      },
+      "login": {
+        "title": "Log In",
+        "desc": "Access your projects, bids, and alerts"
+      }
+    }
+  },
+  "hero": {
+    "liveBadge": "1000+ New Opportunities Every Week",
+    "title": "Every Bid Starts With Finding the Right Job.",
+    "subtext": "Bid Connectors tracks commercial and public construction opportunities across the U.S. and matches them to your trade, service area, and typical contract size. Find projects effortlessly, track your bids, and win commercial projects faster!",
+    "primaryBtn": "Browse Open Projects",
+    "secondaryBtn": "Help Me Bid",
+    "feedTitle": "Live Activity Feed",
+    "justNow": "Just now",
+    "feed": [
+      {
+        "type": "win",
+        "badge": "WIN RATE",
+        "time": "12s ago",
+        "title": "Radial — $8.2M Electrical",
+        "sub": "Pctric · Phoenix, AZ"
+      },
+      {
+        "type": "sent",
+        "badge": "BID SENT",
+        "time": "38s ago",
+        "title": "Skyline Tower Phase II — $28.7M",
+        "sub": "Apex HVAC · Miami, FL"
+      },
+      {
+        "type": "match",
+        "badge": "NEW MATCH",
+        "time": "45s ago",
+        "title": "NovaTech Manufacturing — $67M",
+        "sub": "AI Score: 87% match · Phoenix, AZ"
+      },
+      {
+        "type": "estimating",
+        "badge": "ESTIMATING",
+        "time": "1m ago",
+        "title": "Lincoln Elementary — Takeoff 73% done",
+        "sub": "Patterson Building · Denver, CO"
+      },
+      {
+        "type": "addendum",
+        "badge": "ADDENDUM",
+        "time": "2m ago",
+        "title": "Mercy Hospital — Addendum #3 posted",
+        "sub": "Scope change: MEP updates · Chicago, IL"
+      }
+    ],
+    "pipeline": {
+      "label": "Monthly Performance Overview",
+      "stats": [
+        {
+          "num": "183",
+          "label": "Active Leads"
+        },
+        {
+          "num": "62",
+          "label": "Bids Submitted"
+        },
+        {
+          "num": "22",
+          "label": "Shortlisted Opportunities"
+        }
+      ],
+      "successRate": "Success Rate",
+      "pipelineValue": "Pipeline Value"
+    }
+  },
+  "dashboard": {
+    "badge": "Project Finder Demo",
+    "title": "A Real-Time Demo Of Our Project Finder",
+    "desc": "A smart platform that connects businesses with relevant opportunities and helps brands find the right projects.",
+    "live": "LIVE",
+    "tabs": {
+      "dashboard": "Dashboard",
+      "bidManager": "Bid Manager",
+      "estimating": "Estimating",
+      "analytics": "Analytics"
+    },
+    "stats": [
+      {
+        "label": "OPEN OPPORTUNITIES",
+        "value": "1,842",
+        "change": "+16%"
+      },
+      {
+        "label": "BIDS IN PROGRESS",
+        "value": "62",
+        "change": "+8%"
+      },
+      {
+        "label": "WIN RATE",
+        "value": "27.3%",
+        "change": "+2.1%"
+      },
+      {
+        "label": "PIPELINE VALUE",
+        "value": "$31.2M",
+        "change": "+19%"
+      }
+    ],
+    "projects": [
+      {
+        "title": "Lakeside Charter School Expansion",
+        "value": "$3.8M",
+        "days": "DUE IN 2 DAYS",
+        "location": "Columbus, OH",
+        "category": "K-12 Education"
+      },
+      {
+        "title": "Harbor View Apartments, Phase 3",
+        "value": "$19.4M",
+        "days": "DUE IN 5 DAYS",
+        "location": "Tampa, FL",
+        "category": "Multifamily"
+      },
+      {
+        "title": "Meridian Cold Storage Facility",
+        "value": "$9.1M",
+        "days": "DUE IN 9 DAYS",
+        "location": "Reno, NV",
+        "category": "Industrial"
+      }
+    ],
+    "table": {
+      "project": "Project Name",
+      "value": "Bid Value",
+      "status": "Status",
+      "date": "Submission Date"
+    },
+    "status": {
+      "pending": "Pending",
+      "submitted": "Submitted",
+      "won": "Won",
+      "lost": "Lost"
+    },
+    "bids": [
+      {
+        "project": "University Of Midtown",
+        "value": "$48.2M",
+        "status": "pending",
+        "date": "June 14, 2025"
+      },
+      {
+        "project": "NYC Plaza",
+        "value": "$15.7M",
+        "status": "submitted",
+        "date": "May 10, 2026"
+      },
+      {
+        "project": "High-Rise DC Apartments",
+        "value": "$22.1M",
+        "status": "won",
+        "date": "Jan 10, 2026"
+      },
+      {
+        "project": "Tech Campus Arizona",
+        "value": "$15.4M",
+        "status": "lost",
+        "date": "Feb 1, 2025"
+      }
+    ],
+    "summary": {
+      "totalBids": "Total Bids:",
+      "winRate": "Win Rate:",
+      "totalValue": "Total Value:"
+    },
+    "estimates": [
+      {
+        "title": "Lakeside Charter School Expansion",
+        "sub": "K-12 Education, Columbus, OH",
+        "percent": 85,
+        "value": "$3.8M"
+      },
+      {
+        "title": "Harbor View Apartments, Phase 3",
+        "sub": "Multi-Family, Tampa, FL",
+        "percent": 60,
+        "value": "$19.4M"
+      },
+      {
+        "title": "Meridian Cold Storage Facility",
+        "sub": "Industrial · Reno, NV",
+        "percent": 30,
+        "value": "$9.1M"
+      }
+    ],
+    "analytics": {
+      "winTrend": "Win Rate Trend",
+      "months": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May"
+      ],
+      "vsLastMonth": "vs last month",
+      "byCategory": "Pipeline Value by Category",
+      "categories": [
+        {
+          "name": "Healthcare",
+          "value": "$19M"
+        },
+        {
+          "name": "Multi-Family",
+          "value": "$8M"
+        },
+        {
+          "name": "Industrial",
+          "value": "$12M"
+        },
+        {
+          "name": "Commercial",
+          "value": "$10M"
+        }
+      ],
+      "keyMetrics": "Key Metrics",
+      "metrics": [
+        {
+          "num": "74",
+          "desc": "Total Bids"
+        },
+        {
+          "num": "$31M",
+          "desc": "Pipeline Value"
+        },
+        {
+          "num": "1012",
+          "desc": "Active Leads"
+        }
+      ]
+    }
+  },
+  "home": {
+    "seo": {
+      "title": "Find Latest Construction Projects Faster And Win 95% Of Your Bids",
+      "description": "Explore one of the biggest repositories for construction projects in the US and start bidding before others. Get expert insights from Bid Connector experts now!"
+    },
+    "stats": [
+      {
+        "value": "48,600+",
+        "label": "Open Projects"
+      },
+      {
+        "value": "7,400+",
+        "label": "Contractor Accounts"
+      },
+      {
+        "value": "27%",
+        "label": "Avg. Win Rate"
+      },
+      {
+        "value": "$1.6B",
+        "label": "Project Value Tracked"
+      }
+    ],
+    "faq": {
+      "title": "Common Questions",
+      "highlight": "We've Been Asked",
+      "items": [
+        {
+          "question": "How quickly can I start seeing projects?",
+          "answer": "Most accounts see matched opportunities within minutes of setting trade and location filters. There's no onboarding queue to wait through."
+        },
+        {
+          "question": "Is there a free plan?",
+          "answer": "Yes. The Starter plan is free and includes a limited number of project views each month, so you can evaluate the platform before subscribing."
+        },
+        {
+          "question": "Does Bid Connectors guarantee I'll win projects?",
+          "answer": "No. Bid Connectors helps you find and qualify relevant opportunities faster; winning still depends on your pricing, relationships, and proposal quality."
+        },
+        {
+          "question": "Can I cancel anytime?",
+          "answer": "Yes. Paid plans are month-to-month with no long-term contract, and you can cancel from your account settings at any time."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Your Next Bid",
+      "titleHighlight": "Is Already Listed!",
+      "subText": "Set your trade and service area, just like 9,000+ bid-winning contractors did, and see which open projects fit your business today.",
+      "primaryBtn": "Browse Open Projects",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "features": {
+    "badge": "FEATURES",
+    "titleStart": "Find A Job And",
+    "titleHighlight": "Sign Your Next Contract",
+    "titleEnd": "With Us!",
+    "desc": "Unlike other construction project databases, we do not stop at listing available projects. Here are the six accessible tools built around how preconstruction teams actually spend their week.",
+    "items": [
+      {
+        "title": "Opportunity Scanner",
+        "desc": "Continuously checks public bid boards, agency portals, and private-sector filings, then surfaces only the projects that match your trade, geography, and typical contract size."
+      },
+      {
+        "title": "Bid Package Assembler",
+        "desc": "Pulls plans, specs, addenda, and a sub-trade breakdown into one package, ready to route to your estimating team the same day a project is listed."
+      },
+      {
+        "title": "Takeoff Studio",
+        "desc": "Measure area, length, and count directly on uploaded plan sheets, with quantities that feed straight into your estimate. No separate software needed at all!"
+      },
+      {
+        "title": "Trade Partner Directory",
+        "desc": "Search a directory of subcontractors and suppliers by trade and region, and send bid invitations without leaving the project page."
+      },
+      {
+        "title": "Bid Readiness Check",
+        "desc": "Compares your license, bonding, and insurance on file against a project's stated requirements before you commit hours to a bid."
+      },
+      {
+        "title": "Pipeline Reporting",
+        "desc": "Tracks every opportunity from first view to bid outcome, so you can see which project types and regions are actually worth pursuing."
+      }
+    ]
+  },
+  "platform": {
+    "badge": "Our Work Flow",
+    "titleStart": "One Workspace For Every Stage",
+    "titleHighlight": "of the Bid.",
+    "desc": "From the first time a project appears to the day the bid is due, every phase is tracked. Bid Connectors is one place to find it, price it, and track it.",
+    "notification": "New Match Found!",
+    "tabs": {
+      "projects": {
+        "label": "Find Projects",
+        "title": "New Projects, Delivered the Day They're Posted",
+        "desc": "Bid Connectors monitors thousands of public agency sites, private developer filings, and plan rooms every day, adding new commercial and public construction opportunities as they're published.",
+        "features": [
+          "Custom trade and service-area filters",
+          "Same-day email and SMS alerts",
+          "Full project detail before you commit to a bid"
+        ],
+        "alt": "BidConnectors construction professionals discussing project opportunities and bids"
+      },
+      "bids": {
+        "label": "Submit Bids",
+        "title": "Assemble and Track Every Bid in One Place",
+        "desc": "Bid Connectors pulls plans, specs, and addenda into a ready-to-route bid package, then tracks each submission from draft to award so nothing slips past a deadline.",
+        "features": [
+          "Auto-generated bid packages",
+          "Deadline tracking with reminders",
+          "Full submission history by project"
+        ],
+        "alt": "BidConnectors bid management system organizing construction documents and tracking deadlines"
+      },
+      "estimating": {
+        "label": "Estimating",
+        "title": "Measure and Price Without Leaving the Platform",
+        "desc": "Takeoff Studio lets you measure area, length, and count directly on uploaded plan sheets, with quantities that carry straight into a cost estimate.",
+        "features": [
+          "On-screen takeoff measurement",
+          "Material quantity calculations",
+          "Cost breakdown by trade"
+        ],
+        "alt": "BidConnectors construction estimator measuring digital plans and calculating material quantities and costs"
+      },
+      "pipeline": {
+        "label": "Pipeline Insights",
+        "title": "See Which Opportunities Are Actually Worth Pursuing",
+        "desc": "Pipeline reporting tracks every opportunity from first view to bid outcome, highlighting which project types, regions, and price ranges convert into wins for your business.",
+        "features": [
+          "Win and loss patterns by trade",
+          "Pipeline value forecasting",
+          "Weekly performance summary"
+        ],
+        "alt": "BidConnectors pipeline analytics showing construction project opportunities, win rates, and bid performance"
+      }
+    }
+  },
+  "whyChoose": {
+    "badge": "WHY CHOOSE US",
+    "title": "What Changes When You Stop Searching Manually",
+    "desc": "Figures reported by active Bid Connectors accounts over the trailing 12 months.",
+    "items": [
+      {
+        "number": "2.4x",
+        "title": "More Qualified Bids Submitted",
+        "desc": "Accounts using saved trade and location searches submit bids on a larger share of projects that fit their business."
+      },
+      {
+        "number": "9 hrs",
+        "title": "Saved Per Bid Package",
+        "desc": "Average time saved per bid compared with manually sourcing plans, specs, and sub-trade pricing."
+      },
+      {
+        "number": "$610K",
+        "title": "Avg. Added Pipeline Value",
+        "desc": "Average increase in tracked pipeline value reported by accounts in their first 12 months."
+      },
+      {
+        "number": "91%",
+        "title": "Bids Submitted On Time",
+        "desc": "Share of bids submitted before the stated deadline, based on in-platform activity."
+      },
+      {
+        "number": "89%",
+        "title": "90-Day Account Retention",
+        "desc": "Share of paid accounts still active 90 days after signing up."
+      },
+      {
+        "number": "0",
+        "title": "Confirmed Data Breaches",
+        "desc": "Bid Connectors has not reported a data security incident since launch."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "TESTIMONIALS",
+    "heading": "Words From Contractors",
+    "highlight": "on the Platform",
+    "subtitle": "Don't take our word for it — hear from the people in the trenches.",
+    "items": [
+      {
+        "quote": "We used to lose half a day every week hunting for jobs across five different agency sites. Now that list finds us before our competitors even see it posted.",
+        "name": "Danielle Ruiz",
+        "title": "Owner, Ruiz Mechanical Contracting"
+      },
+      {
+        "quote": "The readiness check flagged a bonding gap before we sank two days into a bid we'd have been disqualified from anyway. That alone paid for the subscription.",
+        "name": "Tom Okafor",
+        "title": "Chief Estimator, Crestline Building Group"
+      },
+      {
+        "quote": "Inviting our regular subs straight from the project page cut about two days off our typical bid turnaround on multifamily work.",
+        "name": "Priya Nandan",
+        "title": "VP Preconstruction, Nandan Commercial"
+      }
+    ]
+  },
+  "pricing": {
+    "ariaLabel": "Pricing plans",
+    "badge": "Pricing",
+    "titleStart": "Plans Built Around",
+    "titleHighlight": "How Many Projects You Chase",
+    "desc": "Start free. Upgrade when you need more views, more filters, or a bigger team.",
+    "included": "(included)",
+    "notIncluded": "(not included)",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "desc": "For a single estimator testing the platform",
+        "price": "$0",
+        "period": "/month",
+        "btn": "Start Free",
+        "features": [
+          "30 project views/month",
+          "Basic trade & location filters",
+          "Weekly email alerts",
+          "Bid package assembly",
+          "Trade partner directory"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "desc": "For active subcontractors and small GCs",
+        "price": "$149",
+        "period": "/month",
+        "badge": "Most Popular",
+        "btn": "Get Started",
+        "features": [
+          "Unlimited project views",
+          "Advanced filters + saved searches",
+          "Bid package assembly",
+          "Takeoff Studio (300 pages/mo)",
+          "Trade partner directory access",
+          "Bid readiness check"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "desc": "For general contractors and multi-office firms",
+        "price": "Custom",
+        "btn": "Talk to Sales",
+        "features": [
+          "Everything in Growth",
+          "Unlimited takeoff pages",
+          "Team seats (10+)",
+          "API access & integrations",
+          "Dedicated account manager",
+          "Custom reporting"
+        ]
+      }
+    }
+  },
+  "footer": {
+    "about": "Bid Connectors is a one-stop shop to track, manage, and bid on top commercial and public construction projects in the USA. Our daily updated database is the best bet to find your next high-ROI project!",
+    "navLabel": "Footer navigation",
+    "columns": {
+      "company": "Company",
+      "solutions": "Solutions",
+      "products": "Products",
+      "support": "Support"
+    },
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "pricing": "Pricing",
+      "contact": "Contact Us",
+      "subcontractors": "Subcontractors",
+      "generalContractors": "General Contractors",
+      "manufacturers": "Building Product Manufacturers",
+      "suppliers": "Suppliers & Distributors",
+      "hospitality": "Hospitality",
+      "serviceProviders": "Service Providers",
+      "projectIntelligence": "Project Intelligence",
+      "intelligentLeads": "Intelligent Leads",
+      "faq": "FAQ",
+      "login": "Log In",
+      "register": "Create Free Account",
+      "projects": "Construction Projects"
+    },
+    "rights": "Bid Connectors. All rights reserved."
+  },
+  "about": {
+    "seo": {
+      "title": "About Us",
+      "description": "Bid Connectors is a leading platform to explore construction projects in the US and bid on them before your competitors. We help contractors find projects effortlessly."
+    },
+    "banner": {
+      "titleStart": "Built By People Who Used to",
+      "titleHighlight": "Chase Bids the Hard Way",
+      "text": "Three estimators, a shared spreadsheet, and about forty browser tabs a day, that's genuinely how this started, not in a pitch deck. We got sick of losing entire mornings to public bid boards that looked like they hadn't been touched since 2009, so we built the tool we wished someone else had already made.",
+      "btn": "Meet the Team"
+    },
+    "stats": [
+      {
+        "value": "2021",
+        "label": "Year Bid Connectors Opened For Business"
+      },
+      {
+        "value": "41",
+        "label": "Cities Our Founding Team Bid Work"
+      },
+      {
+        "value": "6.2 hrs",
+        "label": "Avg. Weekly Search Time Cut For Early Users"
+      },
+      {
+        "value": "112",
+        "label": "Data Sources Checked Each Morning"
+      }
+    ],
+    "story": {
+      "title": "It Started With a Frustrated Estimator, Not a Business Plan",
+      "p1": "Marcus Webb spent nine years estimating electrical work for a mid-size general contractor in Ohio. Twice a week, more or less, he'd burn a whole morning cross-referencing five county procurement sites, one state portal, and a handful of private plan rooms just to land on three projects actually worth bidding.",
+      "p2": "He wasn't the only one doing this. The first version of Bid Connectors matched exactly one trade, in exactly one state. It wasn't much to look at. Four contractors asked to pay for it anyway, before there was even a pricing page to send them.",
+      "imgAlt": "BidConnectors founder story showing a construction estimator researching multiple project opportunities",
+      "founded": "Founded",
+      "foundedValue": "2021",
+      "hq": "Headquarters",
+      "hqValue": "Columbus, OH",
+      "accounts": "Accounts Served",
+      "accountsValue": "7,400+"
+    },
+    "mission": {
+      "badge": "Why We Exist",
+      "titleStart": "What We're Actually Trying to",
+      "titleHighlight": "Do Here",
+      "missionTitle": "Our Mission",
+      "missionText": "Give a five-person electrical outfit the same first look at a project that a 500-person national contractor gets, before the deadline makes it irrelevant.",
+      "visionTitle": "Our Vision",
+      "visionText": "A construction industry where finding a relevant project takes minutes, not a decade of relationships and a rolodex of city clerks."
+    },
+    "values": {
+      "badge": "Our Core Values",
+      "titleStart": "We Stand Out For",
+      "titleHighlight": "A Reason",
+      "subtitle": "None of this is printed on a poster in some offices. We don't have an office. But every product decision gets run through these three filters.",
+      "items": [
+        {
+          "title": "Ship the Useful Version First",
+          "desc": "A filter that works for 80% of trades today beats a perfect one that ships next quarter. We'd rather hear what's broken from real bidders."
+        },
+        {
+          "title": "Say the Boring Part Out Loud",
+          "desc": "If a data source updates weekly instead of daily, we say so on the page. If a plan caps out at 300 takeoff pages a month, that's not a footnote."
+        },
+        {
+          "title": "No Decisions Without a Field Person in the Room",
+          "desc": "Every major feature gets reviewed by someone who has actually estimated a bid."
+        }
+      ]
+    },
+    "process": {
+      "badge": "Behind The Scenes",
+      "titleStart": "How a Notice Becomes a",
+      "titleHighlight": "Bid-Ready Package",
+      "desc": "Four steps happen before a project ever lands in your feed.",
+      "steps": [
+        {
+          "title": "Capture",
+          "desc": "Scanners check agency portals, plan rooms, and developer filings every few hours, not once a week."
+        },
+        {
+          "title": "Qualify",
+          "desc": "Each listing gets scored against your trade, location, and typical contract size before it ever reaches your account."
+        },
+        {
+          "title": "Assemble",
+          "desc": "Plans, specs, and addenda get bundled into one package instead of five separate downloads."
+        },
+        {
+          "title": "Deliver",
+          "desc": "It lands in your queue, usually the same day it's published, often before a competitor has even opened the agency's site."
+        }
+      ]
+    },
+    "team": {
+      "title": "The Four People Most Likely to Answer Your Support Email",
+      "linkedinLabel": "{name} on LinkedIn",
+      "emailLabel": "Email {name}",
+      "members": [
+        {
+          "name": "Marcus Webb",
+          "role": "Co-Founder, Head of Product — former Chief Estimator, 9 years"
+        },
+        {
+          "name": "Elena Torres",
+          "role": "Co-Founder, Engineering Lead"
+        },
+        {
+          "name": "Jordan Pike",
+          "role": "Field Advisor — 15 years as a GC superintendent"
+        },
+        {
+          "name": "Nicholas A. Davis",
+          "role": "Customer Success Lead"
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "Why Contractors Trust Us",
+      "highlight": "With Their Morning Routine",
+      "subtitle": "Real feedback from the people who use Bid Connectors every day.",
+      "items": [
+        {
+          "quote": "I called their support line at 7 AM before a bid was due, expecting a ticket number back. Got a guy who used to run field estimates himself, and he knew exactly what I was asking.",
+          "name": "Renee Castillo",
+          "title": "Owner, Castillo Concrete & Sitework"
+        },
+        {
+          "quote": "Most software built for contractors is made by people who've never set foot on a jobsite. Five minutes into using this one, you can tell that isn't true here.",
+          "name": "Marcus Delaney",
+          "title": "Preconstruction Manager, Delaney Bros. Construction"
+        },
+        {
+          "quote": "They told me flat out that a plan I wanted wouldn't help my trade. Cost them a sale that day. Earned my renewal every year since.",
+          "name": "Wendy Ip",
+          "title": "Principal, Ip Mechanical Group"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Quick Answers",
+      "highlight": "About Us",
+      "description": "Before you ask — a few things worth knowing up front.",
+      "items": [
+        {
+          "question": "Is Bid Connectors a software company or a construction company?",
+          "answer": "Software, full stop. We don't bid on projects ourselves, hold any GC or subcontractor license, or compete with our own users for work."
+        },
+        {
+          "question": "Where is the team based?",
+          "answer": "Fully remote, anchored around Columbus, Ohio, with people spread across six states — most of whom came from construction or a construction-adjacent career before this."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "We Built the Tool We Couldn't Find.",
+      "titleHighlight": "Try the One We Ended Up With.",
+      "subText": "No sales call required to see what's currently open in your trade and area.",
+      "primaryBtn": "See Open Projects",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "faqPage": {
+    "seo": {
+      "title": "Frequently Asked Questions",
+      "description": "Get answers to the most commonly asked questions in the construction estimating and bidding industry without paying big bucks!"
+    },
+    "bannerLabel": "Page introduction",
+    "eyebrow": "Questions & Answers",
+    "titleStart": "Straight Answers,",
+    "titleHighlight": "Before You Subscribe",
+    "text": "Everything contractors and subcontractors ask us about finding, qualifying, and bidding on construction projects is organized below so you can find yours fast. Contact us for a free consultation session.",
+    "btn": "Contact Support",
+    "list": {
+      "title": "Most Commonly Asked",
+      "highlight": "Questions",
+      "description": "Learn what Bid Connectors actually is, and how it fits into the way you already find work."
+    },
+    "items": [
+      {
+        "question": "What exactly does Bid Connectors do?",
+        "answer": "Bid Connectors scans public agency sites, private developer filings, and plan rooms for new commercial and public construction opportunities, then matches them to your trade, service area, and typical contract size so you spend less time searching and more time bidding."
+      },
+      {
+        "question": "What geographic areas does Bid Connectors cover?",
+        "answer": "Coverage spans all 50 states, with the deepest daily update volume in major metro construction markets. You can set your service area down to specific counties or a mile radius from your office."
+      },
+      {
+        "question": "How does project matching work?",
+        "answer": "You set your trade, service radius, and preferred project value range once. Bid Connectors scores every new listing against those criteria and only surfaces the ones that clear your match threshold, instead of showing every project in a region."
+      },
+      {
+        "question": "Can I set alerts for specific trades or project sizes?",
+        "answer": "Yes. Saved searches can be as broad as “all commercial projects in Texas” or as specific as “electrical subcontracts over $2M within 50 miles of Austin,” and you'll get an alert the moment a match is added."
+      },
+      {
+        "question": "Can subcontractors use Bid Connectors, or is it built for general contractors only?",
+        "answer": "Both. Subcontractors can filter for subcontract-specific opportunities and get invited to bid directly by GCs through the trade partner directory, while GCs use the same project data to build their own bid lists."
+      },
+      {
+        "question": "Do I need a contract, or is it month-to-month?",
+        "answer": "Growth plans are billed monthly with no long-term commitment. Enterprise plans are typically annual and negotiated based on team size and usage, discussed directly with our sales team."
+      }
+    ],
+    "cta": {
+      "titleLine1": "Still Have a Question",
+      "titleHighlight": "We Didn't Cover?",
+      "subText": "Our support team can walk through pricing, coverage, or a specific project before you commit to a plan.",
+      "primaryBtn": "Contact Support",
+      "secondaryBtn": "See Open Projects",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact Us",
+      "description": "Bid Connectors team is available 24/7 to support customers, answer their questions, and help them find the best trade-specific projects. Fill out the form and get insights from experts."
+    },
+    "eyebrow": "Get In Touch",
+    "titleStart": "Talk to a Person,",
+    "titleHighlight": "Not a Bot",
+    "text": "Whether you're comparing plans, checking coverage in your service area, or just want to see the platform before setting up an account, someone on our team can walk you through it.",
+    "btn": "Send Us a Message",
+    "sectionLabel": "Contact information and form",
+    "cards": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "form": {
+      "title": "Send a Message",
+      "intro": "Fill out the form and we'll get back to you within one business day.",
+      "nameLabel": "Your name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Email address",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "Phone number (optional)",
+      "messageLabel": "Your message",
+      "messagePlaceholder": "What can we help with?",
+      "submit": "Send message",
+      "sending": "Sending",
+      "successTitle": "Message sent",
+      "successText": "Thanks for reaching out. We'll respond shortly.",
+      "errorText": "That didn't send. Try again, or email us directly at"
+    },
+    "mapTitle": "Bid Connectors office in Columbus, OH"
+  },
+  "pricingPage": {
+    "seo": {
+      "title": "Pricing Plans",
+      "description": "Simple, transparent pricing for Bid Connectors. Choose a flexible monthly or yearly plan for individuals, growing businesses, or enterprises."
+    },
+    "eyebrow": "Pricing",
+    "titleStart": "Pay Only for the Bids",
+    "titleHighlight": "You're Actually Chasing",
+    "text": "No lead quotas, no per-project fees, and no charge for browsing. Every plan scales with how much of the platform your team actually uses, not how many projects happen to exist in your area that month.",
+    "btnPlans": "See Full Feature Breakdown",
+    "btnSales": "Talk to Sales",
+    "sectionLabel": "Pricing plans",
+    "heading": "Two Ways to Pay On The Same Platform",
+    "sub": "Pay month-to-month for flexibility, or pay yearly and knock about two months off the annual cost. Nothing about the product changes either way.",
+    "billingLabel": "Billing period",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "yearlyPerMonth": "(${price}/mo)",
+    "custom": "Custom",
+    "popular": "Most Popular",
+    "included": "(included)",
+    "notIncluded": "(not included)",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "desc": "For a single estimator testing the platform",
+        "priceNote": "Free indefinitely. No trial clock, no credit card.",
+        "btn": "Start Free",
+        "features": [
+          "30 project views/month",
+          "Basic trade & location filters",
+          "Weekly email alerts",
+          "Bid package assembly",
+          "Trade partner directory"
+        ]
+      },
+      "growth": {
+        "name": "Growth",
+        "desc": "For active subcontractors and small GCs",
+        "priceNote": "Save $298/year (about 17%) versus paying monthly.",
+        "btn": "Get Started",
+        "features": [
+          "Unlimited project views",
+          "Advanced filters + saved searches",
+          "Bid package assembly",
+          "Takeoff Studio (300 pages/mo)",
+          "Trade partner directory access",
+          "Bid readiness check"
+        ]
+      },
+      "enterprise": {
+        "name": "Enterprise",
+        "desc": "For general contractors and multi-office firms",
+        "priceNote": "Priced by team size and usage. Talk to sales.",
+        "btn": "Contact Sales",
+        "features": [
+          "Everything in Growth",
+          "Unlimited takeoff pages",
+          "Team seats (10+)",
+          "API access & integrations",
+          "Dedicated account manager",
+          "Custom reporting"
+        ]
+      }
+    },
+    "faq": {
+      "title": "Pricing Questions",
+      "highlight": "Answered Plainly",
+      "description": "Straightforward answers about billing, limits, and switching plans.",
+      "items": [
+        {
+          "question": "Why is Starter free, and what's the catch?",
+          "answer": "There isn't one. Starter is capped at 30 project views a month and doesn't include bid package assembly or the trade partner directory, so it's genuinely limited, not a disguised trial. Plenty of solo estimators use it as their only plan."
+        },
+        {
+          "question": "What happens if I go over my Takeoff Studio page limit?",
+          "answer": "Growth accounts include 300 takeoff pages a month. Extra pages are billed at $0.35 each for the rest of that cycle, or you can move to Enterprise for unlimited pages if that becomes a regular pattern."
+        },
+        {
+          "question": "Is the yearly plan actually cheaper, or just deferred billing?",
+          "answer": "It's a real discount, not just prepayment. Growth billed yearly works out to $124 a month instead of $149, close to two months free compared with paying monthly all year."
+        },
+        {
+          "question": "Can I switch from monthly to yearly in the middle of a subscription?",
+          "answer": "Yes. Switching applies the yearly rate starting on your next billing date and prorates any remaining time on your current monthly cycle, so you're not charged twice for the same period."
+        },
+        {
+          "question": "Do nonprofits, schools, or government agencies get a different rate?",
+          "answer": "There's no published nonprofit or agency discount today, but if you're a public agency evaluating the platform for internal use rather than bidding, reach out and we'll see what makes sense."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Your Plan Should Cost Less",
+      "titleHighlight": "Than One Bid You Win",
+      "subText": "Start free, upgrade when Starter's limits start getting in your way and not before.",
+      "primaryBtn": "Start Free",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime · Prices shown in USD"
+    }
+  },
+  "manufacturers": {
+    "seo": {
+      "title": "Building Product Manufacturers | Get Specified Before the Bid List Fills Up",
+      "description": "Bid Connectors surfaces commercial construction projects at the design and permitting stage, before a general contractor finalizes subcontractors or the specification is locked."
+    },
+    "banner": {
+      "label": "Introduction",
+      "eyebrow": "BUILDING PRODUCT MANUFACTURERS",
+      "title": "Get Specified Before The Bid List Fills Up",
+      "text": "Bid Connectors surfaces commercial construction projects at the design and permitting stage, before a general contractor finalizes subcontractors or the specification is locked.",
+      "btn": "Browse Open Projects",
+      "imgAlt": "BidConnectors building product manufacturers",
+      "caption": "Trusted by 500+ building product manufacturers to grow their specification share"
+    },
+    "stats": [
+      {
+        "value": "$1.26T",
+        "label": "TOTAL U.S. CONSTRUCTION STARTS FORECAST FOR 2026 (DODGE CONSTRUCTION NETWORK, 2026)"
+      },
+      {
+        "value": "12/17",
+        "label": "MARKET SEGMENTS WITH A POSITIVE BIDDING-VOLUME OUTLOOK FOR 2026 (AGC & SAGE, 2026)"
+      },
+      {
+        "value": "5–8",
+        "label": "AVERAGE COMPETING BIDDERS ONCE A COMMERCIAL PROJECT REACHES PUBLIC BID (TAKEOFF CONVERT BID DATA, 2025)"
+      },
+      {
+        "value": "63%",
+        "label": "CONTRACTORS PLANNING TO EXPAND CREWS IN 2026 (AGC, 2026)"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "blocks": [
+      {
+        "label": "DISCOVER",
+        "heading": "When Does A Building Product Actually Get Specified?",
+        "description": "Specification is the point in design when an architect or engineer names an exact product, model, or manufacturer inside the construction documents.",
+        "points": [
+          "Public records are checked daily, so a project surfaces as soon as it becomes public, not after it appears on a planholder list.",
+          "Every alert is tagged by CSI MasterFormat division and section, so a manufacturer sees only the projects that match its product category.",
+          "Design-firm and specifier contact details are attached to each project, so outreach goes to the person writing the spec, not a general project inbox."
+        ],
+        "imgAlt": "BidConnectors building product specification projects"
+      },
+      {
+        "label": "COMPARE",
+        "heading": "How Can A Manufacturer See Who Already Specified A Competitor's Product?",
+        "description": "Specification share is the percentage of matching projects in a market where a manufacturer's product (rather than a competitor's) appears in the construction documents. Bid Connectors calculates specification share by MasterFormat code, region, and building type, and updates it as new project records are added.",
+        "points": [
+          "Share is broken down by MasterFormat division, so Division 07 (Thermal & Moisture Protection) tracks separately from Division 09 (Finishes).",
+          "Competitor activity is shown by design firm, not just by project, so a sales team can prioritize the firms most likely to switch.",
+          "Regional gaps are flagged automatically, showing counties where a competitor holds share without a comparable local project."
+        ],
+        "imgAlt": "BidConnectors competitor specification share analysis"
+      },
+      {
+        "label": "FORECAST",
+        "heading": "Which Construction Sectors Are Growing Fastest In 2026?",
+        "description": "Total U.S. construction starts are forecast to grow 4% in 2026, reaching $1.26 trillion (Dodge Construction Network, 2026). Data center construction is forecast to outpace the broader market, up 7% to $195 billion in the same year (Dodge Construction Network, 2026).",
+        "points": [
+          "Projects are grouped by sector (data centers, healthcare, manufacturing, multifamily, and more) so filtering matches where 2026 demand is concentrated.",
+          "Sector filters update as new Dodge and AGC reports are published, so forecasts reflect the current year, not a static report."
+        ],
+        "imgAlt": "BidConnectors construction sector growth forecast"
+      },
+      {
+        "label": "WIN EARLY",
+        "heading": "Bidding Early Actually Changes A Manufacturer's Win Rate!",
+        "description": "A commercial project typically draws five to eight competing bidders once it reaches public bid (Takeoff Convert bid-tracking data, 2025). At the design stage, before a project is public, that number sits at or near zero.",
+        "points": [
+          "Every project record shows its current stage (design, permitting, or public bid) so a sales team knows how much competitive runway remains.",
+          "Stage-change alerts fire the moment a tracked project moves from design into public bid."
+        ],
+        "imgAlt": "BidConnectors helping manufacturers discover construction projects before public bidding"
+      },
+      {
+        "label": "CONNECT",
+        "heading": "Project Alerts Flow Directly Into A Manufacturer's CRM",
+        "description": "Bid Connectors pushes new and updated project records into Salesforce and HubSpot as they are published, matched automatically to a manufacturer’s existing accounts and contacts. A sales rep opens a CRM opportunity and sees the project’s stage, specifier, MasterFormat division, and location without leaving the CRM.",
+        "points": [
+          "New project matches create a CRM opportunity automatically, tagged with the correct MasterFormat division.",
+          "Existing opportunities update in place when a project changes stage, so pipeline reporting stays accurate without manual edits."
+        ],
+        "imgAlt": "BidConnectors syncing construction project records into a CRM opportunity"
+      }
+    ],
+    "steps": {
+      "label": "How specification tracking works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From MasterFormat Division To CRM Opportunity",
+      "subtitle": "Four steps between telling us what you make and a sales rep opening a project the specifier has not finished writing yet.",
+      "items": [
+        {
+          "title": "Match Your Divisions",
+          "desc": "Tell us which CSI MasterFormat divisions and sections your products fall under."
+        },
+        {
+          "title": "Set Your Territory",
+          "desc": "Choose the regions, counties, and building types your sales team actually covers."
+        },
+        {
+          "title": "Get Design-Stage Alerts",
+          "desc": "Projects reach you while the specification is still being written, not after bid day."
+        },
+        {
+          "title": "Push To Your CRM",
+          "desc": "Matches land in Salesforce or HubSpot as tagged opportunities, ready for outreach."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "CUSTOMER STORIES",
+      "quote": "Finding construction projects to bid for was becoming difficult for me due to the extremely saturated industry of construction estimates. While I was skeptical at first about Bid Connectors, they proved to be perfect to find construction projects before anyone else.",
+      "author": "Customer",
+      "role": "Building Product Manufacturer",
+      "imgAlt": "BidConnectors customer testimonial featuring a building product manufacturer"
+    },
+    "faq": {
+      "title": "Building Product Manufacturer",
+      "highlight": "questions.",
+      "description": "Direct answers about design-stage project data, specification share, and CRM integration.",
+      "items": [
+        {
+          "question": "How does Bid Connectors find projects before they reach public bid?",
+          "answer": "Bid Connectors checks permit filings, planning-commission records, and pre-bid design documents as they are published, then matches each project to a MasterFormat division and building type. A manufacturer sees the project during design or permitting, before a general contractor opens it to public bid."
+        },
+        {
+          "question": "What is specification share, and how is it calculated?",
+          "answer": "Specification share is the percentage of matching construction documents in a market where a manufacturer's product is named, rather than a competitor's. Bid Connectors calculates this figure by MasterFormat code, region, and building type, and updates it as new project records are added."
+        },
+        {
+          "question": "Does Bid Connectors work for subcontractors and general contractors too?",
+          "answer": "Yes. Bid Connectors serves developers, general contractors, and subcontractors in addition to building product manufacturers, using the same underlying project records filtered to each business type's relevant stage of the bid process."
+        },
+        {
+          "question": "Which CRMs does Bid Connectors integrate with?",
+          "answer": "Bid Connectors integrates with Salesforce and HubSpot, matching new project records to existing accounts and contacts and creating opportunities automatically."
+        },
+        {
+          "question": "How current is the construction-starts and market data inside Bid Connectors?",
+          "answer": "Sector and regional forecasts inside Bid Connectors are refreshed as new Dodge Construction Network and AGC reports are published, including the 2026 figures cited on this page, so filtering reflects the current year rather than a static annual report."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Your Next Project",
+      "titleHighlight": "Is Listed In Our Database!",
+      "subText": "See the design-stage projects that match your MasterFormat divisions, region, and building types today.",
+      "primaryBtn": "Browse Open Projects",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "generalContractors": {
+    "seo": {
+      "title": "General Contractors | Build Your Bidder List Faster",
+      "description": "Bid Connectors helps general contractors build bidder lists, send bulk invitations to bid, and track subcontractor responses in real time. No sales calls, free to start."
+    },
+    "banner": {
+      "label": "General Contractors Introduction",
+      "eyebrow": "#1 PLATFORM TO CONNECT WITH SUBCONTRACTORS",
+      "title": "Stop Chasing Bids. Start Winning Them.",
+      "text": "Get matched with responsive subcontractors, streamline your bid invitations, and close coverage gaps faster than ever before, guaranteed.",
+      "btn": "Connect With Them!",
+      "imgAlt": "General Contractors",
+      "caption": "Trusted by general contractors to turn bid invitations into responses that count"
+    },
+    "stats": [
+      {
+        "value": "625,200+",
+        "label": "ACTIVE COMMERCIAL PROJECTS OPEN FOR BIDDING RIGHT NOW"
+      },
+      {
+        "value": "566,000+",
+        "label": "VERIFIED SUBCONTRACTORS READY TO BID ACROSS EVERY TRADE"
+      },
+      {
+        "value": "123,091+",
+        "label": "INVITATIONS TO BID SENT THROUGH THE PLATFORM LAST YEAR"
+      },
+      {
+        "value": "89%",
+        "label": "AVERAGE SUBCONTRACTOR RESPONSE RATE FOR GCS USING BID CONNECTORS"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "blocks": [
+      {
+        "label": "ONE STOP SOLUTION",
+        "heading": "Preconstruction Shouldn't Feel Like A Second Job",
+        "description": "Chasing subcontractors by phone and email eats hours you don't have before bid day. Bid Connectors gives general contractors a faster way to find, invite, and manage subcontractors across every trade, all from one organized dashboard.",
+        "points": [
+          "Build bidder lists by trade, location, and availability.",
+          "Send bulk invitations to bid in a single click.",
+          "Track responses and follow up without lifting a phone."
+        ],
+        "imgAlt": "General contractor bidder list dashboard"
+      },
+      {
+        "label": "SPEED UP YOUR BIDDING",
+        "heading": "Skip The Sales Calls And Just Start Bidding",
+        "description": "Most bid management platforms make you sit through demos, sales pitches, and long-term contracts before you send a single invitation. Bid Connectors skips all that: sign up, post your project, and start connecting with subcontractors the same day, no enterprise sales process required. And when you do need help, you're talking to a real person, not a support ticket queue.",
+        "points": [
+          "Simple onboarding with no demo required to get started.",
+          "Transparent pricing with no long-term contract to sign.",
+          "Human support when it matters, not a ticket queue."
+        ],
+        "imgAlt": "Fast onboarding for general contractors"
+      },
+      {
+        "label": "GROW YOUR BUSINESS",
+        "heading": "Expand Your Network With Bid Connectors",
+        "description": "Your next great subcontractor shouldn't be a stranger you find by luck. Bid Connectors puts you in front of verified subs across every trade and region, so your bidder list keeps growing project after project.",
+        "points": [
+          "Connect with new subcontractors in every trade and market you work in.",
+          "Grow a reliable bidder list that gets stronger with every project."
+        ],
+        "imgAlt": "Growing network of verified subcontractors"
+      },
+      {
+        "label": "OUR STREAMLINED PROCESS",
+        "heading": "From Post To Bid In Three Simple Steps",
+        "description": "Finding the right subcontractors shouldn't take days. Post your project details, select the trades you need covered, and Bid Connectors instantly matches you with qualified subs ready to bid.",
+        "points": [
+          "Add scope, trades, and timeline in minutes.",
+          "Connect with verified subcontractors by trade and location.",
+          "Send bid invitations and monitor responses in real time."
+        ],
+        "imgAlt": "Three-step process from posting a project to receiving bids"
+      }
+    ],
+    "steps": {
+      "label": "How it works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From Project Post To Full Bid Coverage",
+      "subtitle": "No demo, no contract, no waiting on a sales rep. Post the job in the morning and watch responses come in the same week.",
+      "items": [
+        {
+          "title": "Post The Project",
+          "desc": "Add scope, trades, and timeline. Takes minutes, not an onboarding call."
+        },
+        {
+          "title": "Build The Bidder List",
+          "desc": "Filter verified subcontractors by trade, location, and availability."
+        },
+        {
+          "title": "Send Invitations",
+          "desc": "Bulk invitations to bid go out in a single click, to your list and ours."
+        },
+        {
+          "title": "Track Coverage",
+          "desc": "See who opened, who bid, and which trades still have gaps to close."
+        }
+      ]
+    },
+    "whyUs": {
+      "label": "Why general contractors trust us",
+      "eyebrow": "WHY THEY TRUST US",
+      "title": "Built For General Contractors, Not Everyone Else.",
+      "text": "Unlike generic directories, Bid Connectors is designed around what general contractors actually require: fast bidder lists, real trade matching, and zero clutter. With just a few clicks, you're connected with subcontractors. No noise, just qualified subs, ready to bid."
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "REAL STORY, REAL EXPERIENCE",
+      "quote": "Last March, we had three trades unfilled two days before the bid deadline on a mid-rise project. Posted it on Bid Connectors that afternoon and had five qualified responses by the next morning. This company saved us from a scramble.",
+      "author": "Mark T.",
+      "role": "Project Manager",
+      "imgAlt": "General Contractors Customer Testimonial"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "highlight": "About General Contractors",
+      "description": "Explore our quick answer book to get to know all about how general contractors get our support.",
+      "items": [
+        {
+          "question": "Is Bid Connectors free to use for general contractors?",
+          "answer": "Yes, getting started is free for general contractors. They can create projects, build bidder lists, and send invitations to bid at no cost. Optional premium features scale with their business as project volume and coverage needs grow."
+        },
+        {
+          "question": "How many subcontractors can I reach through Bid Connectors?",
+          "answer": "There is no fixed cap. You get access to a growing network of verified subcontractors across trades and regions, and you can combine that network with your own trusted contacts to close bid coverage gaps faster on every project."
+        },
+        {
+          "question": "Will my project details stay private?",
+          "answer": "Yes. Every project you create is private by default. Only the subcontractors you choose to invite can view plans and bid details, and you control visibility from start to finish."
+        },
+        {
+          "question": "Is there a limit to how many projects or invitations I can send?",
+          "answer": "No limits. Create as many projects as you need and send unlimited bid invitations, whether you're running one job or fifty."
+        },
+        {
+          "question": "How is Bid Connectors different from other bid management platforms?",
+          "answer": "Unlike generic directories, Bid Connectors focuses on speed and simplicity: build a project, invite subs, and track responses in minutes, without the learning curve of enterprise-heavy competitor platforms."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Your Next Project",
+      "titleHighlight": "Deserves The Right Bid Team!",
+      "subText": "Build your bidder list, send invitations, and track responses, all from one simple dashboard.",
+      "primaryBtn": "Browse List!",
+      "secondaryBtn": "Contact Us!",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "hospitality": {
+    "seo": {
+      "title": "Hospitality | Fill Rooms With Nearby Construction Crews",
+      "description": "Construction crews need somewhere to stay for weeks, sometimes months. Bid Connectors shows you exactly what’s being built near your property, with contacts to reach out to first."
+    },
+    "banner": {
+      "label": "Hospitality Introduction",
+      "eyebrow": "HOSPITALITY",
+      "title": "Your Next Guests Are Already Breaking Ground",
+      "text": "Construction crews need somewhere to stay for weeks, sometimes months. Bid Connectors shows you exactly what's being built near your property, with contacts to reach out to first. Start finding projects today.",
+      "btnPrimary": "Find Projects",
+      "btnSecondary": "Book a Demo",
+      "imgAlt": "Hotel property located near an active commercial construction site",
+      "caption": "Trusted by 400+ hotels and resorts to fill rooms with construction crew bookings"
+    },
+    "stats": [
+      {
+        "value": "212,400+",
+        "label": "CONSTRUCTION PROJECTS TRACKED NEAR ACTIVE HOTEL PROPERTIES"
+      },
+      {
+        "value": "38,700+",
+        "label": "GENERAL CONTRACTORS AND PROJECT MANAGERS WITH VERIFIED CONTACT INFO"
+      },
+      {
+        "value": "91,500+",
+        "label": "LEAD ALERTS SENT TO HOTELS BEFORE CREWS STARTED BOOKING ROOMS"
+      },
+      {
+        "value": "87%",
+        "label": "CONNECTED HOTELS REACH PROJECT CONTACTS BEFORE COMPETITORS DO"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "blocks": [
+      {
+        "label": "EXTENDED STAYS",
+        "heading": "Long-Stay Guests Are Quietly Reshaping Hotel Revenue",
+        "description": "In April 2026, extended-stay occupancy outperformed comparable hotel classes by 11.9% points (The Highland Group). Construction crews are a major reason why. Out-of-town workers often stay for weeks or months, booking multiple rooms at once. One active project nearby can mean steady weekday occupancy for an entire season, if your hotel reaches them first.",
+        "points": [],
+        "imgAlt": "Extended-stay reservation calendar showing weekday occupancy"
+      },
+      {
+        "label": "REPEAT BUSINESS",
+        "heading": "The Same Contractors Keep Building in Your Market",
+        "description": "Markets don't see one contractor once; they see the same names again and again. Bid Connectors helps you spot repeat builders early, so you can lock in group rates and stay their go-to property, project after project.",
+        "points": [],
+        "imgAlt": "Repeat general contractor activity tracked across multiple projects"
+      },
+      {
+        "label": "EARLY VISIBILITY",
+        "heading": "See the Project Before Every Other Hotel Does",
+        "description": "Most hotels hear about a construction project only after crews start calling around for rooms; by then, three other properties have already pitched them. Bid Connectors flags projects the moment they enter our database, often while they're still in planning, so you're reaching out before demand even builds. That head start turns a one-time booking into a standing relationship with contractors who return to your market project after project.",
+        "points": [
+          "Get notified as soon as a new project near you is added",
+          "Reach contractors before they start comparing nearby hotels",
+          "Turn early outreach into repeat bookings across future projects"
+        ],
+        "imgAlt": "Live feed of newly added construction projects near a hotel property"
+      }
+    ],
+    "steps": {
+      "label": "How to find the right projects",
+      "eyebrow": "FIND CONSTRUCTION PROJECTS",
+      "title": "Know What's Being Built Near Every Property You Run",
+      "subtitle": "A project ten miles away won't fill your rooms. Set your coverage area, narrow it down to what actually matters, and let new matches come to you.",
+      "items": [
+        {
+          "title": "Set Your Coverage",
+          "desc": "Mark the properties you manage and how far out to look."
+        },
+        {
+          "title": "Sort by Fit",
+          "desc": "Rank results by crew size, project length, and booking potential."
+        },
+        {
+          "title": "Track What Matters",
+          "desc": "Follow specific projects as they move from planning to groundbreaking."
+        },
+        {
+          "title": "Get Notified First",
+          "desc": "New matches land in your inbox before competitors even hear about them."
+        }
+      ]
+    },
+    "compare": {
+      "label": "Comparison",
+      "eyebrow": "WHY BID CONNECTORS",
+      "title": "What Changes When You See Projects First",
+      "withoutTitle": "WITHOUT BID CONNECTORS",
+      "withTitle": "WITH BID CONNECTORS",
+      "without": [
+        "Wait for crews to find you online or by chance",
+        "Cold outreach with no project details to back it up",
+        "Compete with every nearby hotel for the same booking",
+        "Find out about a project after it's already staffed up",
+        "Rely on outdated directories and disconnected contacts"
+      ],
+      "with": [
+        "Get matched to nearby construction projects as they are added",
+        "Reach out with project scope, timeline, and contacts in hand",
+        "Pitch your property before crews start comparing options",
+        "Know about projects from planning stage, not after groundbreaking",
+        "Work from verified, continuously updated contractor contacts"
+      ]
+    },
+    "tools": {
+      "label": "Platform tools",
+      "eyebrow": "NEVER MISS A BEAT",
+      "title": "Stay Ahead of Every Project Near Your Property",
+      "subtitle": "Winning one crew's business is a good start. Keeping them, and the ones who follow, is where real occupancy growth happens. Bid Connectors keeps you plugged into every stage of construction activity around your hotel, so you're never caught off guard by a project that's already underway.",
+      "items": [
+        {
+          "title": "Project Timeline",
+          "desc": "Follow projects from groundbreaking to completion, so you know exactly when crews arrive and how long they'll likely stay."
+        },
+        {
+          "title": "Contractor Activity",
+          "desc": "Keep tabs on general contractors and developers working repeatedly in your market, and build relationships that outlast a single booking."
+        },
+        {
+          "title": "Contact Updates",
+          "desc": "Get refreshed contact details as project managers and site leads change, so your outreach always reaches the right person."
+        },
+        {
+          "title": "Live Alerts",
+          "desc": "Receive instant notifications the moment a new project breaks ground near your property, so you're the first call, not the last resort."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "WHAT THEY ARE SAYING",
+      "quote": "Before this, we relied on walk-ins and luck. Now we spot construction projects weeks in advance and reach out before crews even start looking for rooms. Our extended-stay bookings jumped noticeably, and outreach finally feels proactive instead of reactive.",
+      "author": "Maria Torres",
+      "role": "General Manager, Riverside Inn & Suites",
+      "imgAlt": "Maria Torres, General Manager at Riverside Inn and Suites"
+    },
+    "faq": {
+      "title": "Frequently Asked",
+      "highlight": "Questions",
+      "description": "Let's explore the most asked questions that are being asked about our project intelligence related to hospitality.",
+      "items": [
+        {
+          "question": "Are these leads useful for long-term stays, or just single nights?",
+          "answer": "Most of these leads are for long-term stays because construction crews typically stay for weeks or months per project. Early access lets you offer weekly rates and multi-room blocks instead of chasing one-night bookings."
+        },
+        {
+          "question": "Can I filter projects by distance, size, or duration?",
+          "answer": "Yes. Filter by radius from your property, project type, and expected duration, so you focus on jobs likely to bring crews who actually need extended lodging nearby."
+        },
+        {
+          "question": "Will I get notified when a new project starts near my property?",
+          "answer": "Yes. Set a watch radius around your hotel and receive alerts whenever a new construction project is added nearby, so you can contact the crew early."
+        },
+        {
+          "question": "Who are the typical contacts included with each hospitality project lead?",
+          "answer": "Each lead includes verified contacts like owners, developers, architects, interior designers, and general contractors, so your sales team can reach real decision-makers instead of guessing who to call."
+        },
+        {
+          "question": "How often is hospitality project data updated?",
+          "answer": "Our research team verifies and refreshes hospitality listings continuously, with new projects and status changes added regularly, so you are always bidding on current opportunities, not outdated or stalled leads."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Turn Nearby Construction",
+      "titleHighlight": "Projects into Booked Rooms!",
+      "subText": "Get verified project leads and contractor contacts delivered to your inbox, so your hotel fills rooms before crews start searching elsewhere.",
+      "primaryBtn": "Find Projects",
+      "secondaryBtn": "Book a Demo",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "intelligentLeads": {
+    "seo": {
+      "title": "Intelligent Leads | Verified Leads Scored And Ranked For You",
+      "description": "Bid Connectors turns raw project data into scored, verified leads, so you always know which opportunities to chase first and who to call."
+    },
+    "banner": {
+      "label": "Intelligent Leads Introduction",
+      "eyebrow": "INTELLIGENT LEADS",
+      "title": "Stop Chasing Leads. Start Working The Best Ones First",
+      "text": "Bid Connectors scores every lead on fit, budget, and timing, then pairs it with a verified decision-maker, so your team spends time closing instead of sorting.",
+      "btnPrimary": "See Your Leads",
+      "btnSecondary": "Book a Demo",
+      "caption": "Leads re-scored daily as projects move and new information comes in"
+    },
+    "feed": {
+      "header": "Ranked Lead Feed",
+      "cards": [
+        {
+          "tag": "HIGH FIT",
+          "time": "Score 92",
+          "title": "Riverside Medical Office Park",
+          "meta": "$4.2M · Austin, TX"
+        },
+        {
+          "tag": "MED FIT",
+          "time": "Score 74",
+          "title": "Harbor Point Logistics Facility",
+          "meta": "$11.6M · Charleston, SC"
+        },
+        {
+          "tag": "WATCHING",
+          "time": "Score 58",
+          "title": "Northgate Mixed-Use Development",
+          "meta": "$28.4M · Denver, CO"
+        }
+      ]
+    },
+    "stats": [
+      {
+        "value": "48,600+",
+        "label": "LEADS SCORED AND TRACKED ACROSS ACTIVE PROJECTS"
+      },
+      {
+        "value": "300+",
+        "label": "NEW RANKED LEADS PUBLISHED DAILY"
+      },
+      {
+        "value": "7,400+",
+        "label": "VERIFIED DECISION-MAKER CONTACTS"
+      },
+      {
+        "value": "50",
+        "label": "STATES COVERED, COAST TO COAST"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "timeline": [
+      {
+        "label": "SMART SCORING",
+        "heading": "Know Which Leads Are Worth Your Time",
+        "description": "Not every lead deserves the same attention. Bid Connectors scores each one on fit, budget size, stage, and timing, so your team can see at a glance which opportunities are worth chasing first instead of working through a flat, unranked list.",
+        "points": [],
+        "imgAlt": "Ranked feed of scored leads"
+      },
+      {
+        "label": "VERIFIED CONTACTS",
+        "heading": "Every Lead Paired With The Right Person",
+        "description": "A high-scoring lead is only useful if you can reach the right person. Every lead in Bid Connectors is matched to a verified decision-maker, checked and refreshed daily, so you're never calling someone who's already moved on.",
+        "points": [],
+        "imgAlt": "Verified decision-maker contact card"
+      },
+      {
+        "label": "READY TO WORK",
+        "heading": "Turn A Ranked List Into Closed Deals",
+        "description": "Scoring a lead is only the first step. Every record comes with the reasoning behind its score, the right contact, and the current stage attached, so your team can move straight from ranked list to outreach without a separate research step.",
+        "points": [
+          "Filter by score, trade, project size, and region",
+          "See why a lead scored the way it did",
+          "Export or sync ranked leads straight into your CRM"
+        ],
+        "imgAlt": "Lead scoring dashboard"
+      }
+    ],
+    "steps": {
+      "label": "How Intelligent Leads works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From Raw Data To A Ranked Lead",
+      "subtitle": "Lead intelligence isn't a one-time export, it's a process that keeps re-scoring your pipeline as projects move.",
+      "items": [
+        {
+          "title": "Collect",
+          "desc": "Every tracked project, permit, and public filing feeds into a single lead pool the moment it's detected."
+        },
+        {
+          "title": "Score",
+          "desc": "Leads are ranked by fit, budget, stage, and timing, so you see the strongest opportunities first."
+        },
+        {
+          "title": "Match",
+          "desc": "Each lead is paired with the right decision-maker, not just a generic company listing."
+        },
+        {
+          "title": "Deliver",
+          "desc": "Ranked leads land straight in your feed or CRM, ready to work without extra sorting."
+        }
+      ]
+    },
+    "compare": {
+      "label": "Comparison",
+      "eyebrow": "WHY BID CONNECTORS",
+      "title": "See The Difference Firsthand",
+      "withoutTitle": "WITHOUT BID CONNECTORS",
+      "withTitle": "WITH BID CONNECTORS",
+      "without": [
+        "Sort through hundreds of unranked leads by hand",
+        "Guess which opportunities are actually worth chasing",
+        "Reach the wrong contact at the right company",
+        "Lose good leads in a spreadsheet nobody checks"
+      ],
+      "with": [
+        "A ranked list, strongest opportunities on top",
+        "Lead scores based on fit, budget, and timing",
+        "Verified contact tied to the right decision-maker",
+        "Leads that flow straight into your existing workflow"
+      ]
+    },
+    "tools": {
+      "label": "Platform tools",
+      "eyebrow": "SCORE AND PRIORITIZE",
+      "title": "Everything You Need To Work Smarter",
+      "subtitle": "See every lead ranked by how likely it is to close, from first contact through the decision-maker who signs off, and know exactly who to call and when.",
+      "items": [
+        {
+          "title": "Lead Scoring",
+          "desc": "Every lead is scored on fit, budget, and timing, so your best opportunities always rise to the top."
+        },
+        {
+          "title": "Smart Segmentation",
+          "desc": "Filter leads by trade, project size, region, or stage to focus on exactly the work you want."
+        },
+        {
+          "title": "Verified Contacts",
+          "desc": "Direct contact details for the person actually making the call, checked and refreshed daily."
+        },
+        {
+          "title": "CRM Sync",
+          "desc": "Push ranked leads straight into your CRM or export them, no manual re-entry required."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "CUSTOMER STORIES",
+      "quote": "We stopped guessing which leads were worth a callback. The score tells us exactly where to spend our morning, and it's paying off in the pipeline.",
+      "author": "Customer",
+      "role": "Business Development Manager",
+      "imgAlt": "Customer Testimonial"
+    },
+    "faq": {
+      "title": "Intelligent Leads",
+      "highlight": "questions.",
+      "description": "Direct answers about scoring, verification, and how leads reach you.",
+      "items": [
+        {
+          "question": "What makes a lead “intelligent”?",
+          "answer": "Each lead is scored using project fit, budget size, stage, and timing, then paired with a verified decision-maker, so you know it's worth your time before you ever pick up the phone."
+        },
+        {
+          "question": "How are leads scored and ranked?",
+          "answer": "Bid Connectors weighs signals like project size, industry match, stage in the pipeline, and how recently the lead was verified, then ranks your feed so the strongest fits appear first."
+        },
+        {
+          "question": "Can I filter leads to my niche?",
+          "answer": "Yes. Segment by trade, project type, size, region, or stage, and save that filter as a standing search that keeps refreshing on its own."
+        },
+        {
+          "question": "How current is the contact information?",
+          "answer": "Contact records are verified and refreshed daily, so you're reaching a person whose role and project assignment are still current."
+        },
+        {
+          "question": "Can leads sync to my CRM?",
+          "answer": "Yes. Ranked leads can be exported or synced directly into your existing CRM or workflow, no manual re-entry required."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Start Working Your",
+      "titleHighlight": "Best Leads Today",
+      "subText": "See the ranked leads already waiting in your market, and reach the decision-makers first.",
+      "primaryBtn": "See Your Leads",
+      "secondaryBtn": "Book a Demo",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "projectIntelligence": {
+    "seo": {
+      "title": "Project Intelligence | Track Projects From Permit to Completion",
+      "description": "Bid Connectors turns scattered construction news, permits, and public records into one tracked pipeline, so you always know what’s being built, who’s building it, and when to reach out."
+    },
+    "banner": {
+      "label": "Project Intelligence Introduction",
+      "eyebrow": "PROJECT INTELLIGENCE",
+      "title": "Know What's Being Built Before Everyone Else Does",
+      "text": "Bid Connectors tracks construction projects from the first permit filing through completion, turning scattered public data into one verified pipeline you can search, filter, and act on.",
+      "btnPrimary": "Explore Projects",
+      "btnSecondary": "Book a Demo",
+      "caption": "New projects detected and verified every day, before they hit the wires"
+    },
+    "feed": {
+      "header": "Live Project Feed",
+      "cards": [
+        {
+          "tag": "BIDDING",
+          "time": "2h ago",
+          "title": "Riverside Medical Office Park",
+          "meta": "$4.2M · Austin, TX"
+        },
+        {
+          "tag": "DESIGN",
+          "time": "5h ago",
+          "title": "Harbor Point Logistics Facility",
+          "meta": "$11.6M · Charleston, SC"
+        },
+        {
+          "tag": "PLANNING",
+          "time": "Yesterday",
+          "title": "Northgate Mixed-Use Development",
+          "meta": "$28.4M · Denver, CO"
+        }
+      ]
+    },
+    "stats": [
+      {
+        "value": "48,600+",
+        "label": "ACTIVE COMMERCIAL CONSTRUCTION PROJECTS TRACKED"
+      },
+      {
+        "value": "300+",
+        "label": "NEW PROJECT UPDATES PUBLISHED DAILY"
+      },
+      {
+        "value": "7,400+",
+        "label": "CONTRACTOR & GC CONTACTS WITH VERIFIED INFO"
+      },
+      {
+        "value": "50",
+        "label": "STATES COVERED, COAST TO COAST"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "timeline": [
+      {
+        "label": "EARLY DETECTION",
+        "heading": "See Projects At The Earliest Public Signal",
+        "description": "Most teams find out about a project once it's already out to bid, when every competitor is looking at the same opportunity. Bid Connectors surfaces projects at the planning and permit stage, so you have weeks or months of lead time to build a relationship before the bidding window even opens.",
+        "points": [],
+        "imgAlt": "Live feed of newly detected construction projects"
+      },
+      {
+        "label": "VERIFIED DATA",
+        "heading": "Every Record Checked, Not Just Scraped",
+        "description": "Raw permit data is messy and contacts go stale fast. Every project and contact in Bid Connectors is cross-checked against multiple sources and refreshed daily, so what you see is what's actually true today, not a snapshot from three months ago.",
+        "points": [],
+        "imgAlt": "Verified project and contact record"
+      },
+      {
+        "label": "ACTIONABLE INSIGHTS",
+        "heading": "Turn Data Into A Working Pipeline",
+        "description": "Tracking a project is only useful if it leads somewhere. Every record comes with the stage, timeline, and decision-makers attached, so your team can move straight from insight to outreach without a separate research step.",
+        "points": [
+          "Filter by project type, stage, size, and location",
+          "See the full history of a project as it evolves",
+          "Export or sync leads straight into your workflow"
+        ],
+        "imgAlt": "Project pipeline dashboard"
+      }
+    ],
+    "steps": {
+      "label": "How Project Intelligence works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From Public Record To Verified Lead",
+      "subtitle": "Project intelligence isn't a single database, it's a process that runs continuously so your pipeline never goes stale.",
+      "items": [
+        {
+          "title": "Detect",
+          "desc": "Our system scans permits, news, and public filings continuously to catch projects as early as possible."
+        },
+        {
+          "title": "Verify",
+          "desc": "Every project and contact is checked against multiple sources before it lands in your feed."
+        },
+        {
+          "title": "Stage",
+          "desc": "Projects are tagged by phase, planning, design, bidding, or under construction, so context is built in."
+        },
+        {
+          "title": "Alert",
+          "desc": "Save a search or watch a project, and get notified the moment something you care about changes."
+        }
+      ]
+    },
+    "compare": {
+      "label": "Comparison",
+      "eyebrow": "WHY BID CONNECTORS",
+      "title": "See The Difference Firsthand",
+      "withoutTitle": "WITHOUT BID CONNECTORS",
+      "withTitle": "WITH BID CONNECTORS",
+      "without": [
+        "Piece together leads from scattered news alerts",
+        "Chase contacts whose roles changed months ago",
+        "Find out a project already went out to bid",
+        "Rebuild the same research every single week"
+      ],
+      "with": [
+        "One tracked pipeline, updated every day",
+        "Verified contacts tied to their current project",
+        "See a project the moment it enters bidding",
+        "A saved search that keeps working while you don't"
+      ]
+    },
+    "tools": {
+      "label": "Platform tools",
+      "eyebrow": "TRACK AND MONITOR",
+      "title": "Everything You Need To Work A Market",
+      "subtitle": "See the full construction landscape in your territory, from early planning through active construction, and know exactly who to call and when.",
+      "items": [
+        {
+          "title": "Project Feed",
+          "desc": "A live, filterable feed of every tracked project, sorted by stage, size, or bid date."
+        },
+        {
+          "title": "Company Profiles",
+          "desc": "See who's active on a project and which companies keep showing up in your market."
+        },
+        {
+          "title": "Verified Contacts",
+          "desc": "Direct contact details for the people making decisions, checked and refreshed daily."
+        },
+        {
+          "title": "Watch Lists & Alerts",
+          "desc": "Track specific projects or saved searches and get notified the instant something changes."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "CUSTOMER STORIES",
+      "quote": "We used to spend hours a week just figuring out what was being built nearby. Now the pipeline builds itself, and we spend that time actually talking to the people who matter.",
+      "author": "Customer",
+      "role": "Business Development Manager",
+      "imgAlt": "Customer Testimonial"
+    },
+    "faq": {
+      "title": "Project Intelligence",
+      "highlight": "questions.",
+      "description": "Direct answers about detection, verification, and how the data stays current.",
+      "items": [
+        {
+          "question": "What counts as a tracked project?",
+          "answer": "Any commercial construction project our system identifies from permits, news, and public filings, then verifies and stages from planning through completion."
+        },
+        {
+          "question": "How does Bid Connectors find projects before they’re public knowledge?",
+          "answer": "We continuously scan thousands of sources, including permit filings, local news, and municipal records, and surface projects as soon as they’re identified rather than waiting for a single announcement."
+        },
+        {
+          "question": "Can I track projects at a specific stage?",
+          "answer": "Yes. Every project is tagged by stage, planning, design, bidding, or under construction, so you can filter to exactly where you want to engage."
+        },
+        {
+          "question": "How current is the contact information?",
+          "answer": "Contact records are verified and refreshed daily, so you’re reaching a person whose role and project assignment are still current."
+        },
+        {
+          "question": "Can I get notified when something changes?",
+          "answer": "Yes. Watch lists send an alert the moment a tracked project changes stage, timeline, or contact, so you never work from stale information."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Start Building Your",
+      "titleHighlight": "Project Pipeline Today",
+      "subText": "See the construction projects already tracked in your market, and reach the decision-makers first.",
+      "primaryBtn": "Explore Projects",
+      "secondaryBtn": "Book a Demo",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "serviceProviders": {
+    "seo": {
+      "title": "Service Providers | Find Profitable Construction Leads Early",
+      "description": "Stop chasing dead leads and secure profitable commercial contracts early. Automate takeoffs and win high-paying building projects before competitors know."
+    },
+    "banner": {
+      "label": "Service Providers Introduction",
+      "eyebrow": "SPOT THE PLAN, QUOTE THE SCOPE, WIN THE BID",
+      "title": "Find Profitable Projects Before Your Competitors Even Know They Exist",
+      "text": "Accelerate your daily workflow with real-time project tracking, automated material takeoffs, and precise lead generation designed for regional contractors. According to the AGC Construction Outlook Survey, 61% of firms are expanding technology investments to overcome skilled labor shortages and improve estimate accuracy.",
+      "btn": "Browse Open Projects",
+      "imgAlt": "Service Providers",
+      "caption": "Trusted by 300+ service providers to fill their project calendar"
+    },
+    "stats": [
+      {
+        "value": "$1.78T",
+        "label": "TOTAL U.S. CONSTRUCTION STARTS RATE IN MAY 2026 (DODGE CONSTRUCTION NETWORK)"
+      },
+      {
+        "value": "57%",
+        "label": "DATA CENTER SECTOR NET EXPANSION OPTIMISM IN 2026 (AGC & SAGE, 2026)"
+      },
+      {
+        "value": "61%",
+        "label": "CONTRACTORS DEPLOYING AUTOMATED PRECONSTRUCTION TOOLS TODAY (AGC & SAGE, 2026)"
+      },
+      {
+        "value": "349K",
+        "label": "NET NEW SKILLED WORKERS NEEDED ACROSS REGIONAL MARKETS (ABC REPORT, 2026)"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "blocks": [
+      {
+        "label": "EARLY INTELLIGENCE",
+        "heading": "Monitor Public Records And Track Project Timings",
+        "description": "Monitor structural engineering reviews and local zoning permits early. Secure profitable mechanical bids before municipal document rooms fill up with competing contractors.",
+        "points": [
+          "Track local planning board filings weeks before standard commercial publishing platforms list them online.",
+          "Filter out low-profit projects using simple automated rules matched to your daily team capacity.",
+          "Get instant alerts when structural engineering reviews clear local municipal permitting offices for new work."
+        ],
+        "imgAlt": "Service Providers project alert"
+      },
+      {
+        "label": "COMPETITIVE GAP ANALYSIS",
+        "heading": "Track Competitor Market Share And Pricing Gaps",
+        "description": "Identify underserved market segments and optimize your active bids by analyzing localized competitor win rates and pricing gaps.",
+        "points": [
+          "Map active competitor distribution across municipal zones to find unserved commercial niches.",
+          "Track historical pricing trends to ensure your quotes remain competitive without eroding project profit margins.",
+          "Expose hidden project bottlenecks caused by regional material shortages or strict local environmental reviews."
+        ],
+        "imgAlt": "Service Providers share comparison"
+      },
+      {
+        "label": "REGIONAL SECTOR GROWTH",
+        "heading": "Construction Sector Growth Breakdown And Filtering Updates",
+        "description": "Target high-growth commercial sectors while factoring in regional frost depths, seismic code mandates, and local labor constraints.",
+        "points": [
+          "Focus bids on high-demand regional sectors backed by verified municipal data and recent zoning approvals.",
+          "Filter out saturated project types using dynamic local parameters that account for regional supply chain costs."
+        ],
+        "imgAlt": "Service Providers construction sector forecast"
+      },
+      {
+        "label": "STRATEGIC EARLY QUOTING",
+        "heading": "Early Quoting Strategies That Dramatically Increase Win Rates",
+        "description": "Submit precise quotes during the initial design phase to secure preferred vendor status and bypass standard bidding wars.",
+        "points": [
+          "Secure top-tier project placement by delivering accurate estimates while architects finalize structural drawings.",
+          "Trigger instant stage-change alerts whenever project owners modify their initial engineering or material specifications."
+        ],
+        "imgAlt": "Service Providers project stage tracker"
+      },
+      {
+        "label": "CRM DATA SYNCHRONIZATION",
+        "heading": "Connect Your CRM For Instant Deal Updates",
+        "description": "Sync project data directly into your existing sales pipelines to eliminate manual data entry and accelerate follow-ups.",
+        "points": [
+          "Automate pipeline updates to ensure your team pursues qualified bids the moment status changes occur.",
+          "Eliminate manual data entry errors by syncing real-time project metrics directly into active CRM deals."
+        ],
+        "imgAlt": "Service Providers CRM integration"
+      }
+    ],
+    "steps": {
+      "label": "How it works",
+      "eyebrow": "STREAMLINED PROJECT WORKFLOWS",
+      "title": "Automated Preconstruction Workflows Built For Strict Building Compliance",
+      "subtitle": "Streamline daily operations by matching active construction documents with local seismic codes, frost depth rules, and regional environmental standards.",
+      "items": [
+        {
+          "title": "Scan Active Leads",
+          "desc": "Filter regional commercial and industrial project listings instantly using custom geotechnical parameters."
+        },
+        {
+          "title": "Verify Local Codes",
+          "desc": "Cross-reference local seismic standards, soil bearing capacities, and frost-line depths automatically."
+        },
+        {
+          "title": "Generate Estimates",
+          "desc": "Produce accurate material takeoffs that reflect current regional material cost drivers and local wage scales."
+        },
+        {
+          "title": "Submit Proposals",
+          "desc": "Dispatch comprehensive digital bids directly to project owners before the official vendor list opens."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "CONTRACTOR SUCCESS STORIES",
+      "quote": "We used to miss bids after rivals booked takeoffs. Now we spot cleared permits early and lock down profitable HVAC piping contracts before anyone else applies.",
+      "author": "Mark Vance",
+      "role": "Mechanical HVAC",
+      "imgAlt": "Service Providers Customer Testimonial"
+    },
+    "faq": {
+      "title": "Frequently Asked",
+      "highlight": "Questions.",
+      "description": "Get clear, direct insights into how our platform protects your data and streamlines your daily preconstruction workflow.",
+      "items": [
+        {
+          "question": "How do early alerts protect profit margins?",
+          "answer": "Early notifications give your team time to review site-specific soil conditions and local permitting fees before submitting final pricing."
+        },
+        {
+          "question": "Can the platform track local zoning changes?",
+          "answer": "Yes, automated scrapers monitor regional municipal boards daily to capture public notices and new commercial filings instantly."
+        },
+        {
+          "question": "How does the system handle CRM data?",
+          "answer": "Direct API integrations push verified project updates, contact details, and document links straight into your existing pipeline software."
+        },
+        {
+          "question": "What metrics define active market share?",
+          "answer": "The platform tracks historical award data, regional contractor density, and active vendor lists to highlight underserved commercial segments."
+        },
+        {
+          "question": "Are material cost drivers updated regularly?",
+          "answer": "Regional material pricing indices refresh weekly to account for local tariff adjustments, supply chain shifts, and local labor rates."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Stop Chasing Crowded Public Vendor Lists And",
+      "titleHighlight": "Secure Profitable Projects Today",
+      "subText": "Claim your local market advantage now and start filling your project calendar with high-margin bids before competitors notice.",
+      "primaryBtn": "Browse Open Projects",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "subcontractors": {
+    "seo": {
+      "title": "Subcontractors | Find Every Open Bid in Your Trade",
+      "description": "Stop jumping between sites to find work. Bid Connectors puts every active construction project in your trade in front of you, so you spend less time searching and more time bidding."
+    },
+    "banner": {
+      "label": "Page introduction",
+      "titleStart": "One Place to Find",
+      "titleHighlight": "Every Open Bid",
+      "text": "Stop jumping to ten different sites to find work. Bid Connectors puts every active construction project in your trade in front of you, so you waste less time searching and more time bidding.",
+      "btn": "Explore More!"
+    },
+    "featuresLabel": "Platform features",
+    "btnDemo": "Book a Demo",
+    "btnLearn": "Learn More",
+    "rows": [
+      {
+        "label": "YOUR JOB PARTNER",
+        "heading": "Built for the Way Subcontractors Actually Work",
+        "description": "Winning consistent work is not about finding a good job; it is about seeing every opportunity before your competitors do. Bid Connectors gives you an organized view of all open jobs related to your field so you can bid 2.4x faster and grow your pipeline value without the guesswork.",
+        "points": [],
+        "imgAlt": "BidConnectors helping subcontractors discover relevant construction job opportunities and bid faster"
+      },
+      {
+        "label": "ONE-STOP SOLUTION",
+        "heading": "The Right Project, In the Right Place, Every Time",
+        "description": "Bidding on the wrong project wastes your time and money that you never get back. Bid Connectors is a one-stop solution with a huge network of 5,000+ general contractors. So, you get the right job matched with your speciality within a fraction of the time.",
+        "points": [
+          "Track every bid's status from first view to final decision",
+          "Focus your team's time on bids you're actually qualified to win"
+        ],
+        "imgAlt": "BidConnectors matching subcontractors with qualified construction projects and tracking bid opportunities"
+      },
+      {
+        "label": "A TRUSTED PLATFORM",
+        "heading": "Finding Work Should Not Feel Like a Full-Time Job",
+        "description": "Scrolling through the irrelevant job openings is the fastest way to miss potential opportunities. Our smart filters allow you to narrow projects by trade, budget range, location, and timeline in seconds. When you get the open construction projects related to your field in seconds, you can focus on the bidding process that is actually worth your time.",
+        "points": [],
+        "imgAlt": "BidConnectors smart filters helping subcontractors find relevant construction projects by trade, budget, location, and timeline"
+      },
+      {
+        "label": "GROW YOUR BUSINESS WITH US",
+        "heading": "Your Next Contract Is Already Out There",
+        "description": "Every day you spend finding a job is a day your competitor spends bidding. But not anymore. Bid Connectors keeps you plugged in to a constant stream of new opportunities, with more than 125,600 open projects listed on our dashboard, so you never rely on word-of-mouth to find a new job. Get steady and qualified work whenever you are ready.",
+        "points": [],
+        "imgAlt": "BidConnectors helping contractors discover a steady stream of qualified construction project opportunities"
+      }
+    ],
+    "trust": {
+      "title": "Trusted by Subcontractors Across Industry",
+      "text": "Since our establishment, we have been helping subcontractors win more bids without juggling different platforms, every single day."
+    },
+    "stats": [
+      {
+        "value": "125,600+",
+        "label": "ACTIVE PROJECTS"
+      },
+      {
+        "value": "90-Day",
+        "label": "CLIENT RETENTION RATE"
+      },
+      {
+        "value": "9-Hours",
+        "label": "SAVED PER PROJECT BID"
+      },
+      {
+        "value": "2.4x",
+        "label": "MORE BIDS SUBMITTED"
+      }
+    ],
+    "steps": {
+      "label": "How it works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From Search To Submitted Bid",
+      "subtitle": "No more checking ten agency sites every morning. Set it up once and the work comes to you.",
+      "items": [
+        {
+          "title": "Set Your Trade",
+          "desc": "Tell us what you do and the service area you actually cover."
+        },
+        {
+          "title": "Review Matches",
+          "desc": "Every open bid in your trade lands in one feed, not ten different sites."
+        },
+        {
+          "title": "Check The Details",
+          "desc": "Scope, budget range, timeline, and deadline before you commit hours."
+        },
+        {
+          "title": "Submit And Track",
+          "desc": "Follow each bid from first view through to the final decision."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "highlight": "to know.",
+      "description": "Explore our quick answer book to know how we help subcontractors in finding potential projects.",
+      "items": [
+        {
+          "question": "How do you find open construction projects for me?",
+          "answer": "We continuously find open construction projects across your trade and region, then organise them into one feed. This helps you to explore every potential bid opportunity without searching various sites yourself."
+        },
+        {
+          "question": "How is Bid Connectors different from other companies?",
+          "answer": "Unlike scattered listing sites, Bid Connectors offers you a centralized list including all the open projects and allows you to filter jobs related to your location and trade."
+        },
+        {
+          "question": "What trades and locations does Bid Connectors cover?",
+          "answer": "We track open construction projects across multiple trades, including electrical, plumbing, HVAC, concrete, roofing, and more. Moreover, we offer our services in all states of the US, so you can find the job that perfectly matches your trades and service area."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Ready to",
+      "titleHighlight": "Bid Smarter?",
+      "subText": "Subcontractors using Bid Connectors submit 2.4x more bids and save 9 hours per project. Start building your pipeline today.",
+      "primaryBtn": "Start Finding Projects",
+      "secondaryBtn": "Talk to Sales",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "suppliers": {
+    "seo": {
+      "title": "Suppliers & Distributors | Get Specified, Stay Specified",
+      "description": "Get specified, stay specified, and win more sales. Bid Connectors helps suppliers and distributors track projects and reach buyers early."
+    },
+    "banner": {
+      "label": "Suppliers and Distributors Introduction",
+      "eyebrow": "SUPPLIERS & DISTRIBUTORS",
+      "title": "The Intelligence Behind Every Smart Sale",
+      "text": "Connect with architects, engineers, and contractors sourcing your products and protect your spot before value engineering swaps you out.",
+      "btn": "Explore More!",
+      "imgAlt": "Suppliers and Distributors",
+      "caption": "Suppliers and distributors trust us to get specified early and stay ahead of the competition"
+    },
+    "stats": [
+      {
+        "value": "425,100+",
+        "label": "PROJECTS TRACKED FROM DESIGN STAGE THROUGH CONSTRUCTION"
+      },
+      {
+        "value": "106,300+",
+        "label": "ARCHITECTS, ENGINEERS, AND GCS ACTIVELY SOURCING PRODUCTS RIGHT NOW"
+      },
+      {
+        "value": "545,021+",
+        "label": "SPECIFICATION ALERTS SENT TO SUPPLIERS BEFORE BID DAY LAST YEAR"
+      },
+      {
+        "value": "92%",
+        "label": "CONNECTED SUPPLIERS REACH DECISION-MAKERS BEFORE THE SPEC IS LOCKED"
+      }
+    ],
+    "featuresLabel": "Platform capabilities",
+    "blocks": [
+      {
+        "label": "RELIABLE PLATFORM",
+        "heading": "Smarter Decisions, Backed by Real Project Data",
+        "description": "Guessing which projects to chase wastes time you don't have. Bid Connectors gives suppliers and distributors the project intelligence needed to make faster, sharper decisions at every stage.",
+        "points": [
+          "See which projects are actively sourcing your product category.",
+          "Track where your specifications stand as projects move toward construction.",
+          "Identify substitution risk before it costs you the sale."
+        ],
+        "imgAlt": "Suppliers and Distributors project alert"
+      },
+      {
+        "label": "CONNECT WITH US",
+        "heading": "Get More Leads, Save Time, Grow Your Business",
+        "description": "It happens quietly. An architect writes your product into the spec. Months later, a contractor swaps it for an equivalent at buyout, and nobody tells you until the order never comes.",
+        "points": [
+          "See where your products are specified, project by project.",
+          "Get flagged the moment a project nears bid or buyout.",
+          "Reach the buyer directly, before someone else does."
+        ],
+        "imgAlt": "Suppliers and Distributors order share comparison"
+      },
+      {
+        "label": "CHOOSE US",
+        "heading": "The Earlier You're In, the Harder You Are to Replace",
+        "description": "Products specified late get swapped. Products specified early become the standard everyone else has to beat. Bid Connectors surface projects while they are still in design.",
+        "points": [
+          "Reach projects at design stage, not just bid stage.",
+          "Influence the spec before a competitor gets the chance."
+        ],
+        "imgAlt": "Suppliers and Distributors construction sector forecast"
+      },
+      {
+        "label": "KNOW MORE",
+        "heading": "From Specifying to Selling, What We Do?",
+        "description": "Being specified once is not the finish line; it is the start of a window that closes fast. Bid Connectors tracks your products through that window and puts you back in front of the decision-maker at the exact moment it matters.",
+        "points": [
+          "List your products by category, material, and application.",
+          "Get matched to live projects where your product is already in play.",
+          "Receive alerts before buyout, when substitution risk is highest."
+        ],
+        "imgAlt": "Suppliers and Distributors project stage tracker"
+      },
+      {
+        "label": "SUCCESS PARTNER",
+        "heading": "See the Deal Before It's Gone.",
+        "description": "Most suppliers only find out they lost a job after it is built. We show you which projects are actively sourcing your category, so you can move before the decision gets made without you in the room.",
+        "points": [
+          "See which projects are actively sourcing your category.",
+          "See who else is circling the same job.",
+          "Move before the decision gets made without you in the room."
+        ],
+        "imgAlt": "Suppliers and Distributors CRM integration"
+      }
+    ],
+    "steps": {
+      "label": "How specification tracking works",
+      "eyebrow": "HOW IT WORKS",
+      "title": "From Product Catalogue To Protected Spec",
+      "subtitle": "Getting specified is step one. Staying specified through buyout is where the order is actually won or lost.",
+      "items": [
+        {
+          "title": "List Your Products",
+          "desc": "Add your catalogue by category, material, and application."
+        },
+        {
+          "title": "Match Live Projects",
+          "desc": "See the projects actively sourcing what you sell, by trade and region."
+        },
+        {
+          "title": "Track The Spec",
+          "desc": "Follow your products through design as projects move toward buyout."
+        },
+        {
+          "title": "Catch Substitutions",
+          "desc": "Get flagged before buyout, when the risk of being swapped is highest."
+        }
+      ]
+    },
+    "story": {
+      "label": "Customer story",
+      "eyebrow": "WHAT THEY ARE SAYING",
+      "quote": "We quoted a job in March, then found out in June it had already been specified with a competitor's product. That doesn't happen anymore. Bid Connectors flagged the project at the design stage, and we closed it instead.",
+      "author": "Dana Reyes",
+      "role": "Vice President of Sales",
+      "imgAlt": "Suppliers and Distributors Customer Testimonial"
+    },
+    "faq": {
+      "title": "Frequently Asked",
+      "highlight": "Questions.",
+      "description": "Below are the most common questions asked about how distributors and suppliers get help from our platform.",
+      "items": [
+        {
+          "question": "How does Bid Connectors help me get my products specified?",
+          "answer": "We analyse projects at the design and planning stage, so you can connect with architects and general contractors before specifications are finalized. This way, we give suppliers and distributors a real chance to get their products selected early."
+        },
+        {
+          "question": "Can I find out which projects are actively sourcing my product type?",
+          "answer": "Yes. You can search and filter projects by material type, trade, and location to find active opportunities matching what you sell. This ensures that you are not wasting time chasing jobs that were never a fit."
+        },
+        {
+          "question": "Do I get contact information for decision-makers on a project?",
+          "answer": "Absolutely. There are verified contact details for architects, engineers, general contractors, and subcontractors who are involved in each project on our website. This information helps you to reach out directly instead of guessing who to call."
+        },
+        {
+          "question": "Is Bid Connectors only for bidding, or can I respond to material requests too?",
+          "answer": "Both. Submit material estimates directly to GCs and subcontractors, respond to inbound requests, and manage your entire sales pipeline from one dashboard built for suppliers and distributors."
+        },
+        {
+          "question": "How is this different from a standard bid management platform?",
+          "answer": "Most platforms focus only on subcontractor bidding. Bid Connectors gives suppliers and distributors direct visibility into projects and specification stages, helping you sell and grow market share, not just bid."
+        }
+      ]
+    },
+    "cta": {
+      "titleLine1": "Grow Your",
+      "titleHighlight": "Specification Rate, Not Just Your Lead List!",
+      "subText": "Join Bid Connectors and start connecting with contractors ready to specify and buy your products.",
+      "primaryBtn": "Explore Products!",
+      "secondaryBtn": "Call Now!",
+      "note": "No credit card · Free forever plan · Cancel anytime"
+    }
+  },
+  "projects": {
+    "seo": {
+      "hubTitle": "Construction Projects Open for Bidding",
+      "hubDesc": "Find commercial and public construction projects across all 50 U.S. states by trade, location and sector. See bid dates, estimated values and stages; members get plans, specs and contacts.",
+      "tradeTitle": "{trade} Construction Projects Open for Bidding",
+      "tradeDesc": "Browse {count} {trade} construction projects across the U.S. with bid dates, estimated values and project stages.",
+      "sectorTitle": "{sector} Construction Projects",
+      "sectorDesc": "Browse {count} {sector} construction projects with bid dates, values, stages and required trades.",
+      "stateTitle": "Construction Projects in {state}",
+      "stateDesc": "Browse {count} construction projects in {state}, by city, trade and sector, with bid dates and estimated values.",
+      "cityTitle": "Construction Projects in {city}, {state}",
+      "cityDesc": "Browse {count} construction projects in {city}, {state} with bid dates, estimated values and required trades.",
+      "projectTitle": "{name} | {city}, {state}",
+      "projectDesc": "{name} in {city}, {state}: {type} {sector} project estimated at {value}. Bid due {bidDate}. Trades: {trades}."
+    },
+    "breadcrumbHome": "Home",
+    "breadcrumbProjects": "Construction Projects",
+    "hub": {
+      "searchLabel": "Search projects",
+      "searchPlaceholder": "Search by project name or city",
+      "all": "All",
+      "allStates": "All states",
+      "allCities": "All cities",
+      "clear": "Clear filters",
+      "results": "{count} projects found",
+      "noResults": "No projects match these filters yet. Try another city or clear a filter to see more.",
+      "browseTrade": "Browse by Trade",
+      "browseLocation": "Browse by Location",
+      "browseSector": "Browse by Sector",
+      "locationLabel": "State",
+      "cityHint": "Pick a state first",
+      "stateSearch": "Type a state name or code",
+      "citySearch": "Type a city",
+      "noMatch": "No match. Check the spelling or try a shorter name.",
+      "filterTitle": "Find projects to bid on",
+      "filterText": "Filter by location, trade, sector and status. Results update as you choose.",
+      "banner": {
+        "eyebrow": "CONSTRUCTION PROJECTS",
+        "title": "Construction Projects Open for Bidding",
+        "text": "Find commercial and public construction projects across all 50 U.S. states. Every listing shows the bid date, estimated value and stage, so you can decide in minutes which jobs are worth pricing.",
+        "primaryBtn": "Find Projects",
+        "secondaryBtn": "Book a Demo",
+        "imageAlt": "Steel frame of a building under construction",
+        "trust": "New projects added every business day, with bid dates checked against the owner or agency source"
+      },
+      "why": {
+        "eyebrow": "WHY US",
+        "title": "Why Bid Connectors",
+        "text": "You price jobs for a living. We make sure the jobs in front of you are real, current and a fit for your trade, so the hours you spend estimating turn into bids you can win.",
+        "items": [
+          {
+            "title": "Verified before it's listed",
+            "text": "Every project is checked against the owner or agency source, and bid dates are updated the moment they move."
+          },
+          {
+            "title": "Filters built around how you bid",
+            "text": "Narrow by trade, sector, state, city and public or private work across all 50 states, and skip the listings that were never yours."
+          },
+          {
+            "title": "Plans, specs and addenda in one place",
+            "text": "Members open the full bid package, every addendum and takeoff from the project page instead of chasing email threads."
+          },
+          {
+            "title": "The people behind the project",
+            "text": "See the general contractor or agency and reach the right estimator directly, before the bid list closes."
+          }
+        ]
+      },
+      "testimonials": {
+        "title": "What Contractors Say",
+        "text": "Estimators and owners who use Bid Connectors to find their next job.",
+        "items": [
+          {
+            "quote": "We stopped checking six agency portals every morning. The saved search sends us the concrete jobs in our counties, and the addendum alerts have saved us from pricing an outdated set more than once.",
+            "name": "Marcus Hale",
+            "role": "Chief Estimator, Hale Concrete Works"
+          },
+          {
+            "quote": "The bid date and value on each listing tell me in seconds whether a job is worth a takeoff.",
+            "name": "Elena Brooks",
+            "role": "Owner, Brooks Electrical"
+          },
+          {
+            "quote": "Having the GC contact on the project page means we are on the bid list days earlier than before.",
+            "name": "Jordan Price",
+            "role": "Preconstruction Manager, Summit Mechanical"
+          }
+        ],
+        "eyebrow": "TESTIMONIALS"
+      },
+      "faq": {
+        "title": "Questions About Projects",
+        "text": "How listings work, what members get and how access is billed.",
+        "contact": "Ask our team",
+        "items": [
+          {
+            "question": "What can I see without a subscription?",
+            "answer": "Anyone can browse the project list: name, location, sector, trades, estimated value, stage and bid date. Plans, specifications, addenda, bidder lists, takeoff and contact details are available only to members on a paid plan."
+          },
+          {
+            "question": "Is there a free plan or free trial?",
+            "answer": "No. Project documents and contacts are part of our paid plans. You can compare plans and prices on the pricing page before you subscribe."
+          },
+          {
+            "question": "Which locations do you cover?",
+            "answer": "All 50 U.S. states. Use the State filter to jump to any state, then narrow the list by its main cities."
+          },
+          {
+            "question": "How often are projects updated?",
+            "answer": "Listings are reviewed every business day. When a bid date, stage or addendum changes, the project page is updated and members following it are notified."
+          },
+          {
+            "question": "Can I get alerts for new projects in my trade?",
+            "answer": "Yes. Members can save a search by trade, sector and location and get an alert when a matching project is added or changes."
+          },
+          {
+            "question": "Can I cancel my subscription?",
+            "answer": "Yes. You can cancel from your account settings, and access stays active until the end of the billing period you have paid for."
+          }
+        ],
+        "eyebrow": "FAQ"
+      },
+      "cta": {
+        "title": "Get the Plans, Specs and Contacts Behind Every Listing",
+        "text": "Choose a plan to open full bid packages, receive addendum alerts and reach the people running each project.",
+        "primaryBtn": "See plans and pricing",
+        "secondaryBtn": "Log in"
+      },
+      "process": {
+        "eyebrow": "OUR PROCESS",
+        "title": "From Search to Submitted Bid",
+        "text": "Four steps between you and your next project. Browsing is open to everyone; documents and contacts come with a paid plan.",
+        "steps": [
+          {
+            "title": "Search and Filter",
+            "text": "Pick a state, city, trade and sector to see the projects that fit your work."
+          },
+          {
+            "title": "Review the Project",
+            "text": "Check the bid date, estimated value, stage and required trades before you spend time on it."
+          },
+          {
+            "title": "Choose a Plan",
+            "text": "Subscribe to open plans, specs, addenda, bidder lists and contact details."
+          },
+          {
+            "title": "Bid with Confidence",
+            "text": "Price from the latest documents and get alerts when anything on the project changes."
+          }
+        ]
+      },
+      "benefits": {
+        "eyebrow": "MEMBER BENEFITS",
+        "title": "Everything You Need to Bid, in One Place",
+        "text": "A paid plan turns every listing into a complete bid package, so you stop chasing documents and start pricing.",
+        "items": [
+          {
+            "title": "Full Bid Packages",
+            "text": "Download plans, specifications and takeoff straight from the project page."
+          },
+          {
+            "title": "Addendum Alerts",
+            "text": "Get notified the moment an addendum is posted, so you never price an old set."
+          },
+          {
+            "title": "Direct Contacts",
+            "text": "Reach the general contractor or agency estimator before the bid list closes."
+          },
+          {
+            "title": "Saved Searches",
+            "text": "Save your trade and location once and get new matching projects in your inbox."
+          }
+        ]
+      }
+    },
+    "filters": {
+      "trade": "Trade",
+      "state": "State",
+      "city": "City",
+      "sector": "Sector",
+      "status": "Status",
+      "ownership": "Public / Private"
+    },
+    "card": {
+      "value": "Est. Value",
+      "bidDate": "Bid Due",
+      "stage": "Stage",
+      "view": "View Project",
+      "moreTrades": "+{count} more"
+    },
+    "listing": {
+      "count": "{count} projects",
+      "tradeEyebrow": "BY TRADE",
+      "sectorEyebrow": "BY SECTOR",
+      "locationEyebrow": "BY LOCATION",
+      "tradeText": "Open and upcoming construction projects that need {trade} work, with bid dates, values and stages.",
+      "sectorText": "{sector} construction projects across the U.S., from design through bidding and construction.",
+      "stateText": "Construction projects across {state}. Pick a city to narrow the list.",
+      "cityText": "Construction projects in {city}, {state}, with bid dates, values and required trades.",
+      "citiesIn": "Cities in {state}",
+      "otherTrades": "Other trades",
+      "otherSectors": "Other sectors",
+      "otherStates": "Other states",
+      "viewAll": "View all projects"
+    },
+    "detail": {
+      "overview": "Project Overview",
+      "scope": "Scope of Work",
+      "location": "Location",
+      "projectType": "Project Type",
+      "sector": "Sector",
+      "value": "Estimated Value",
+      "bidDate": "Bid Due Date",
+      "stage": "Project Stage",
+      "status": "Status",
+      "ownership": "Public / Private",
+      "trades": "Trades Required",
+      "owner": "General Contractor / Agency",
+      "ownerHidden": "Available after login",
+      "lastUpdated": "Last Updated",
+      "related": "Related Projects",
+      "backToAll": "All projects",
+      "locked": {
+        "eyebrow": "MEMBERS ONLY",
+        "title": "Plans, specs and contacts are available after login",
+        "text": "Subscribe to a plan or log in to download bid documents and reach the people behind this project.",
+        "items": [
+          "Plans",
+          "Specifications",
+          "Contact details",
+          "Full bidder list",
+          "Project documents",
+          "Addenda downloads",
+          "Direct contact information",
+          "Takeoff"
+        ],
+        "login": "Log In",
+        "register": "Choose a Plan",
+        "note": "Available on paid plans."
+      },
+      "sideTitle": "Ready to bid on this project?",
+      "sideText": "Get the plans, specs and contacts in one place."
+    }
+  }
+}

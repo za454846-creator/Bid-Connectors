@@ -20,8 +20,8 @@ const PAGE_PATH = "/solutions/building-product-manufacturers";
 // TODO: upload a real 1200x630 share image and point this at it.
 const OG_IMAGE = "https://bidconnectors.com/og/building-product-manufacturers.jpg";
 
-const REGISTER_URL = "https://bidconnectors.com/bidconnectors/register";
-const LOGIN_URL = "https://bidconnectors.com/bidconnectors/login";
+const REGISTER_URL = "https://bidconnectors.com/app/register";
+const LOGIN_URL = "https://bidconnectors.com/app/login";
 
 // Images and icons do not depend on language. Order matches JSON.
 const BLOCK_IMAGES = [featureImg1, featureImg2, featureImg3, featureImg4, featureImg5];

@@ -6,8 +6,8 @@ import { useLanguage } from "@/components/context/LanguageContext";
 import SiteImage from "@/components/SiteImage";
 // Structure and paths only. Text comes from the JSON "footer" section.
 // Every page of the site is linked here.
-const LOGIN_URL = "https://bidconnectors.com/bidconnectors/login";
-const REGISTER_URL = "https://bidconnectors.com/bidconnectors/register";
+const LOGIN_URL = "https://bidconnectors.com/app/login";
+const REGISTER_URL = "https://bidconnectors.com/app/register";
 
 // Footer contact: same email for both languages, phone per language
 const CONTACT_EMAIL = "info@bidconnectors.com";

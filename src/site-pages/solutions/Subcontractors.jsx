@@ -15,8 +15,8 @@ const opportunitiesImg = "/images/subimg4.webp";
 const PAGE_PATH = "/solutions/subcontractors";
 // TODO: upload a real 1200x630 share image and point this at it.
 const OG_IMAGE = "https://bidconnectors.com/og/subcontractors.jpg";
-const REGISTER_URL = "https://bidconnectors.com/bidconnectors/register";
-const LOGIN_URL = "https://bidconnectors.com/bidconnectors/login";
+const REGISTER_URL = "https://bidconnectors.com/aa/register";
+const LOGIN_URL = "https://bidconnectors.com/aa/login";
 
 // Order matches JSON "rows" and "steps.items"
 const ROW_IMAGES = [findImg, organizeImg, platformImg, opportunitiesImg];

@@ -4,8 +4,8 @@ import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import { useLanguage } from "../context/LanguageContext";
 import SiteImage from "@/components/SiteImage";
-const REGISTER_URL = "https://bidconnectors.com/bidconnectors/register";
-const LOGIN_URL = "https://bidconnectors.com/bidconnectors/login";
+const REGISTER_URL = "https://bidconnectors.com/app/register";
+const LOGIN_URL = "https://bidconnectors.com/app/login";
 
 // Structure and paths only. Text comes from JSON.
 // Only pages that exist are listed (no 404 links).
